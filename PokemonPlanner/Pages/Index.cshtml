@@ -1,0 +1,514 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4" style="font-weight:800; color:white;">Draft Planner</h1>
+    @*<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
+    @*
+        BOX WITH CURRENT SELECTED POKEMON
+    *@
+
+    <div class="container container-pokemon">
+        <div id="currentTeamRow" class="row text-center" style="display: block; margin-top: 10px; margin-bottom: 10px; ">
+            <img style="height:150px;" id="littleD" src="~/images/littleD.gif" />
+        </div>
+        <div class="row" style="margin-bottom: 10px; ">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                
+            </div>
+            <div class="col-sm-4">
+                
+            </div>
+        </div>
+    </div>
+    <div class="container container-pokemon">
+        <div id="selectedPokemonRow" class="row text-center" style="margin-top: 10px; margin-bottom: 10px;">
+            <div class="col-sm-4">
+                <div class="row selected-pokemon-row">
+                    <table id="selectedPokemonStats" class="selected-pokemon-table">
+                        <tr>
+                            <th>HP</th>
+                            <th>Atk</th>
+                            <th>Def</th>
+                            <th>SpA</th>
+                            <th>SpD</th>
+                            <th>Spe</th>
+                            <th>BST</th>
+                        </tr>
+                        <tr>
+                            <td id="selectedHP"></td>
+                            <td id="selectedAtk"></td>
+                            <td id="selectedDef"></td>
+                            <td id="selectedSpA"></td>
+                            <td id="selectedSpD"></td>
+                            <td id="selectedSpe"></td>
+                            <td id="selectedBST"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-1">
+                <div class="row selected-pokemon-row">
+                    <table id="selectedPokemonTypes" class="selected-pokemon-types-table">
+                        <tr>
+                            <td id="selectedType1"></td>
+                        </tr>
+                        <tr>
+                            <td id="selectedType2"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <span class="image-helper"></span>
+                <div class="row selected-pokemon-row" id="selectedPokemonSprite" style="display:inline-block;">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="row">
+                    <table id="selectedPokemonAbilities" class="selected-pokemon-abilities-table">
+                        <tr>
+                            <td id="selectedAbility1"></td>
+                        </tr>
+                        <tr>
+                            <td id="selectedAbility2"></td>
+                        </tr>
+                        <tr>
+                            <td id="selectedAbilityH"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row" style="margin-bottom: 5px; display:inline; height:50%">
+                    <select id="pokemonListDropdown" style="width:100%; background-color: black; color:white;"></select>
+                </div>
+                <div class="row" style="text-align: center; display: inline-block; height:50%">
+                    <button type="button" id="addPokemon" class="btn button-black poke-button" style="border-radius:50%;">
+                        <i class="fas fa-plus" style="color:white;"></i>
+                    </button>
+                    <button id="selectedPokemonInformation" type="button" class="btn button-black poke-button" style="border-radius:50%;">
+                        <i class="fas fa-info" style="color:white;"></i>
+                    </button>
+                </div>
+                @*
+            <div class="row" style="display:block;">
+                <span id="selectedPokemonName" class="selected-pokemon-name">
+
+                </span>
+            </div>
+            <div class="row" style="display:inline-block;">
+                <span>
+                    <button id="selectedPokemonInformation" type="button" class="btn button-black poke-button" style="border-radius:50%;">
+                        <i class="fas fa-info" style="color:white;"></i>
+                    </button>
+                </span>
+            </div>
+                *@
+            </div>
+        </div>
+    </div>
+    <div class="container container-pokemon" id="container3" style="display:none;">
+        <div class="row" style="margin-top:10px; margin-bottom:10px;">
+            <div class="col-sm-2">
+                <span style="font-weight: 600; display: inline-block; vertical-align: middle; font-size: 16px;">
+                    Speed Tiers
+                </span>
+                <div class="row">
+                    <table id="teamSpeedTiersTable" class="standard-table">
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-10">
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container-pokemon" id="container4" style="display:none;">
+        <div class="row" style="margin-top:10px; margin-bottom:10px;">
+            <div class="col-sm-3">
+                <span style="font-weight: 600; display: inline-block; vertical-align: middle; font-size: 16px;">
+                    Team Typings
+                </span>
+                <div class="row">
+                    <table id="teamTypingsTable" class="smaller-table">
+                        <tr>
+                            <th>Type</th>
+                            <th>Pokemon</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/normal.png" /></td>
+                            <td data-type="normal"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/fire.png" /></td>
+                            <td data-type="fire"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/water.png" /></td>
+                            <td data-type="water"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/grass.png" /></td>
+                            <td data-type="grass"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/electric.png" /></td>
+                            <td data-type="electric"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/ice.png" /></td>
+                            <td data-type="ice"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/fighting.png" /></td>
+                            <td data-type="fighting"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/poison.png" /></td>
+                            <td data-type="poison"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/ground.png" /></td>
+                            <td data-type="ground"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/flying.png" /></td>
+                            <td data-type="flying"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/psychic.png" /></td>
+                            <td data-type="psychic"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/bug.png" /></td>
+                            <td data-type="bug"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/rock.png" /></td>
+                            <td data-type="rock"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/ghost.png" /></td>
+                            <td data-type="ghost"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/dragon.png" /></td>
+                            <td data-type="dragon"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/dark.png" /></td>
+                            <td data-type="dark"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/steel.png" /></td>
+                            <td data-type="steel"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/fairy.png" /></td>
+                            <td data-type="fairy"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <span style="font-weight: 600; display: inline-block; vertical-align: middle; font-size: 16px;">
+                    Offensive STAB Coverage
+                </span>
+                <div class="row">
+                    <table id="offensiveCoverageTable" class="smaller-table">
+                        <tr>
+                            <th>Type</th>
+                            <th>Pokemon</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/normal.png" /></td>
+                            <td data-type="normal"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/fire.png" /></td>
+                            <td data-type="fire"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/water.png" /></td>
+                            <td data-type="water"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/grass.png" /></td>
+                            <td data-type="grass"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/electric.png" /></td>
+                            <td data-type="electric"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/ice.png" /></td>
+                            <td data-type="ice"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/fighting.png" /></td>
+                            <td data-type="fighting"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/poison.png" /></td>
+                            <td data-type="poison"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/ground.png" /></td>
+                            <td data-type="ground"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/flying.png" /></td>
+                            <td data-type="flying"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/psychic.png" /></td>
+                            <td data-type="psychic"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/bug.png" /></td>
+                            <td data-type="bug"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/rock.png" /></td>
+                            <td data-type="rock"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/ghost.png" /></td>
+                            <td data-type="ghost"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/dragon.png" /></td>
+                            <td data-type="dragon"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/dark.png" /></td>
+                            <td data-type="dark"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/steel.png" /></td>
+                            <td data-type="steel"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/fairy.png" /></td>
+                            <td data-type="fairy"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <span style="font-weight: 600; display: inline-block; vertical-align: middle; font-size: 16px;">
+                    Weaknesses & Resistances
+                </span>
+                <div class="row">
+                    <table id="weaknessesTable" class="smaller-table">
+                        <tr>
+                            <th></th>
+                            <th>x0</th>
+                            <th>x0.25</th>
+                            <th>x0.5</th>
+                            <th>x2</th>
+                            <th>x4</th>
+                            <th>+/-</th>
+                        </tr>
+                        <tr data-type="normal">
+                            <td><img src="/images/normal.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="fire">
+                            <td><img src="/images/fire.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="water">
+                            <td><img src="/images/water.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="grass">
+                            <td><img src="/images/grass.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="electric">
+                            <td><img src="/images/electric.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="ice">
+                            <td><img src="/images/ice.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="fighting">
+                            <td><img src="/images/fighting.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="poison">
+                            <td><img src="/images/poison.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="ground">
+                            <td><img src="/images/ground.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="flying">
+                            <td><img src="/images/flying.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="psychic">
+                            <td><img src="/images/psychic.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="bug">
+                            <td><img src="/images/bug.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="rock">
+                            <td><img src="/images/rock.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="ghost">
+                            <td><img src="/images/ghost.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="dragon">
+                            <td><img src="/images/dragon.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="dark">
+                            <td><img src="/images/dark.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="steel">
+                            <td><img src="/images/steel.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                        <tr data-type="fairy">
+                            <td><img src="/images/fairy.png" /></td>
+                            <td data-strength="0"></td>
+                            <td data-strength="0.25"></td>
+                            <td data-strength="0.5"></td>
+                            <td data-strength="2"></td>
+                            <td data-strength="4"></td>
+                            <td class="typeDifference"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="abilityCheckboxDiv" style="display:none;">
+                    <input type="checkbox" id="abilityFactor" />
+                    <label for="abilityFactor">Factor Abilities into Resistance Table</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/init.js" asp-append-version="true"></script>
+    <script src="~/js/TypeFunctions.js" asp-append-version="true"></script>
+    <script src="~/data/Pokedex.js" asp-append-version="true"></script>
