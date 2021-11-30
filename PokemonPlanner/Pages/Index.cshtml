@@ -11,7 +11,17 @@
     @*
         BOX WITH CURRENT SELECTED POKEMON
     *@
-
+    <div class="row" style="text-align: center; display: inline-block; height:50%; margin-bottom: 10px;">
+        <button title="Load Team" type="button" id="loadTeam" class="btn button-black poke-button" style="border-radius:50%;">
+            <i class="fas fa-folder-open" style="color:white;"></i>
+        </button>
+        <button title="Save Team" id="saveTeam" type="button" class="btn button-black poke-button" style="border-radius:50%;">
+            <i class="fas fa-save" style="color:white;"></i>
+        </button>
+        <button title="Clear Team" id="clearTeam" type="button" class="btn button-black poke-button" style="border-radius:50%;">
+            <i class="fas fa-times" style="color:white;"></i>
+        </button>
+    </div>
     <div class="container container-pokemon">
         <div id="currentTeamRow" class="row text-center" style="display: block; margin-top: 10px; margin-bottom: 10px; ">
             <img style="height:150px;" id="littleD" src="~/images/littleD.gif" />
@@ -19,10 +29,10 @@
         <div class="row" style="margin-bottom: 10px; ">
             <div class="col-sm-4"></div>
             <div class="col-sm-4">
-                
+
             </div>
             <div class="col-sm-4">
-                
+
             </div>
         </div>
     </div>
@@ -85,30 +95,30 @@
                 </div>
             </div>
             <div class="col-sm-3">
-                <div class="row" style="margin-bottom: 5px; display:inline; height:50%">
+                <div class="row" style="margin-bottom: 5px; display:inline;">
                     <select id="pokemonListDropdown" style="width:100%; background-color: black; color:white;"></select>
                 </div>
-                <div class="row" style="text-align: center; display: inline-block; height:50%">
-                    <button type="button" id="addPokemon" class="btn button-black poke-button" style="border-radius:50%;">
+                <div class="row" style="text-align: center; display: inline-block; margin-top: 15px;">
+                    <button title="Add Pokemon" type="button" id="addPokemon" class="btn button-black poke-button" style="border-radius:50%;">
                         <i class="fas fa-plus" style="color:white;"></i>
                     </button>
-                    <button id="selectedPokemonInformation" type="button" class="btn button-black poke-button" style="border-radius:50%;">
+                    <button title="Additional Info" id="selectedPokemonInformation" type="button" class="btn button-black poke-button" style="border-radius:50%;">
                         <i class="fas fa-info" style="color:white;"></i>
                     </button>
                 </div>
                 @*
-            <div class="row" style="display:block;">
-                <span id="selectedPokemonName" class="selected-pokemon-name">
+                    <div class="row" style="display:block;">
+                        <span id="selectedPokemonName" class="selected-pokemon-name">
 
-                </span>
-            </div>
-            <div class="row" style="display:inline-block;">
-                <span>
-                    <button id="selectedPokemonInformation" type="button" class="btn button-black poke-button" style="border-radius:50%;">
-                        <i class="fas fa-info" style="color:white;"></i>
-                    </button>
-                </span>
-            </div>
+                        </span>
+                    </div>
+                    <div class="row" style="display:inline-block;">
+                        <span>
+                            <button id="selectedPokemonInformation" type="button" class="btn button-black poke-button" style="border-radius:50%;">
+                                <i class="fas fa-info" style="color:white;"></i>
+                            </button>
+                        </span>
+                    </div>
                 *@
             </div>
         </div>
@@ -124,7 +134,56 @@
                     </table>
                 </div>
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-5">
+                <span style="font-weight: 600; display: inline-block; vertical-align: middle; font-size: 16px;">
+                    Important Moves
+                </span>
+                <div class="row">
+                    <table id="importantMovesTable" class="smaller-table">
+                        <tr>
+                            <td>Stealth Rock</td>
+                            <td data-type="rocks"></td>
+                        </tr>
+                        <tr>
+                            <td>Spikes</td>
+                            <td data-type="spikes"></td>
+                        </tr>
+                        <tr>
+                            <td>Toxic Spikes</td>
+                            <td data-type="tspikes"></td>
+                        </tr>
+                        <tr>
+                            <td>Sticky Web</td>
+                            <td data-type="webs"></td>
+                        </tr>
+                        <tr>
+                            <td>Defog / Rapid Spin</td>
+                            <td data-type="defog"></td>
+                        </tr>
+                        <tr>
+                            <td>Heal Bell / Aromatherapy</td>
+                            <td data-type="healbell"></td>
+                        </tr>
+                        <tr>
+                            <td>Wish</td>
+                            <td data-type="wish"></td>
+                        </tr>
+                        <tr>
+                            <td>Self-Recovery</td>
+                            <td data-type="recovery"></td>
+                        </tr>
+                        <tr>
+                            <td>Pivoting</td>
+                            <td data-type="pivoting"></td>
+                        </tr>
+                        <tr>
+                            <td>Priority</td>
+                            <td data-type="priority"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-5">
                 <div class="row">
 
                 </div>
@@ -491,24 +550,60 @@
     </div>
 </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
+<!-- Save Team Modal -->
+<div class="modal fade" id="saveModal" role="dialog">
+    <div class="modal-dialog">
 
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <input id="saveModalInput" />
+            </div>
+            <div class="modal-footer">
+                <button id="saveModalSave" type="button">Save Team</button>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
         </div>
     </div>
+</div>
 
-    <script src="~/js/init.js" asp-append-version="true"></script>
-    <script src="~/js/TypeFunctions.js" asp-append-version="true"></script>
-    <script src="~/data/Pokedex.js" asp-append-version="true"></script>
+<div class="modal fade" id="loadModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <select id="loadModalTeams" style="width:100%; background-color: black; color:white;">
+
+                </select>
+            </div>
+            <div class="modal-footer">
+                <button id="loadModalLoad" type="button">Load Team</button>
+                <button id="loadModalDelete" type="button">Delete Team</button>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/init.js" asp-append-version="true"></script>
+<script src="~/js/TypeFunctions.js" asp-append-version="true"></script>
+<script src="~/data/Pokedex.js" asp-append-version="true"></script>

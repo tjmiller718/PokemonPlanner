@@ -5,6 +5,8 @@ var counter = 0;
 var selectedTrigger = false;
 
 var selectedPokemon;
+//var selectedTeam;
+var selectSavedTeams;
 
 var currentTeam = [];
 
@@ -22,7 +24,7 @@ $(document).ready(function () {
             $('#littleD').hide();
 
         $('#abilityFactor').change(function () {
-            populateContainer4();
+            populateContainers();
         })
 
         $('#addPokemon').on('click', function () {
@@ -44,49 +46,19 @@ $(document).ready(function () {
                 //console.log(currentMon);
 
                 $('#currentTeamRow').append(
-                    '<div class="pokemon-box-wrapper" data-pokemonid="' + currentMon.id + '">' + currentMon.name +
+                    '<div class="pokemon-box-wrapper" data-pokemonid="' + currentMon.id + '">' + (currentMon.name == 'Urshifu-Rapid-Strike' ? 'Urshifu-R' : currentMon.name) +
                     '<div class="pokemon-box" data-pokemonid="' + currentMon.id + '">' +
                     '<span class="image-helper"></span>' +
-                    '<img class="medium-image" src="' + currentMon.spriteURL + '"></img>' +
+                    '<img class="medium-image" title="' + currentMon.name + '" src="' + currentMon.spriteURL + '"></img>' +
                     '</div>' +
                     '<span class="pokemonTrashCan"><i class="fa fa-trash clickable"></i></span>' +
                     '</div>');
 
                 currentTeam.push(currentMon);
-
-                $('.pokemonTrashCan').off('click').on('click', function () {
-                    var pokeID = $(this).closest('.pokemon-box-wrapper').data('pokemonid');
-                    console.log(pokeID);
-                    for (var c in currentTeam) {
-                        console.log(currentTeam[c].id);
-                        if (currentTeam[c].id == pokeID) {
-                            currentTeam.splice(c, 1);
-                            break;
-                        }
-                    }
-                    $(this).closest('.pokemon-box-wrapper').remove();
-
-                    populateContainer3();
-
-                    if (currentTeam.length == 0) {
-                        $('#littleD').show();
-                        $('#container3').hide();
-                        $('#container4').hide();
-                        $('#abilityCheckboxDiv').hide();
-                    }
-                });
-
                 counter++;
 
-                $('.pokemon-box').off('click').on('click', function () {
-                    selectedPokemon = pokemon[$(this).data('pokemonid')];
-                    $('#pokemonListDropdown').val(selectedPokemon.id).trigger('change');
-                    $(this).addClass('pokemon-selected');
-                });
-
-
-                populateContainer3();
-                populateContainer4();
+                addPokemonRowEvents()
+                populateContainers();
             }
         });
 
@@ -104,10 +76,137 @@ $(document).ready(function () {
         $('#pokemonListDropdown').val('abomasnow').trigger('change');
 
         $('#selectedPokemonInformation').on('click', function () {
-            $('#myModal').modal();
+            $('#myModal').modal('show');
+        });
+
+        $('#saveTeam').on('click', function () {
+            if (currentTeam.length == 0) {
+                alert('No Pokemon are currently selected.');
+            } else {
+                $('#saveModal').modal();
+            }
+        });
+
+        $('#saveModalSave').on('click', function () {
+            var teamName = $('#saveModalInput').val();
+            //console.log(teamName);
+            var teamJSON = JSON.stringify(currentTeam);
+            localStorage.setItem(teamName, teamJSON);
+
+            $('#saveModal').modal('hide');
+        });
+
+        $('#loadTeam').on('click', function () {
+            var savedTeams = {}, // Notice change here
+                keys = Object.keys(localStorage),
+                i = keys.length;
+
+            while (i--) {
+                savedTeams[keys[i]] = localStorage.getItem(keys[i]);
+            }
+
+            selectSavedTeams = [];
+
+            for (var t in savedTeams) {
+                selectSavedTeams.push({ 'id': t, 'text': t, 'val': savedTeams[t] })
+            }
+
+            $('#loadModalTeams').select2({
+                data: selectSavedTeams,
+            });
+
+            $('#loadModal').modal();
+        });
+
+        $('#loadModalLoad').on('click', function () {
+            for (var t in selectSavedTeams) {
+                if (selectSavedTeams[t].id == $('#loadModalTeams').val()) {
+                    currentTeam = JSON.parse(selectSavedTeams[t].val);
+                    $('#littleD').hide();
+                    $('#container3').show();
+                    $('#container4').show();
+                    $('#abilityCheckboxDiv').show();
+                    populateContainers();
+                    $('#currentTeamRow .pokemon-box-wrapper').remove();
+                    for (var p in currentTeam) {
+                        $('#currentTeamRow').append(
+                            '<div class="pokemon-box-wrapper" data-pokemonid="' + currentTeam[p].id + '">' + (currentTeam[p].name == 'Urshifu-Rapid-Strike' ? 'Urshifu-R' : currentTeam[p].name) +
+                            '<div class="pokemon-box" data-pokemonid="' + currentTeam[p].id + '">' +
+                            '<span class="image-helper"></span>' +
+                            '<img class="medium-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>' +
+                            '</div>' +
+                            '<span class="pokemonTrashCan"><i class="fa fa-trash clickable"></i></span>' +
+                            '</div>');
+                    }
+                    addPokemonRowEvents();
+                }
+            }
+            //console.log(currentTeam);
+            $('#loadModal').modal('hide');
+        });
+
+        $('#loadModalDelete').on('click', function () {
+            localStorage.removeItem($('#loadModalTeams').val());
+
+            var savedTeams = {}, // Notice change here
+                keys = Object.keys(localStorage),
+                i = keys.length;
+
+            while (i--) {
+                savedTeams[keys[i]] = localStorage.getItem(keys[i]);
+            }
+
+            selectSavedTeams = [];
+
+            for (var t in savedTeams) {
+                selectSavedTeams.push({ 'id': t, 'text': t, 'val': savedTeams[t] })
+            }
+
+            $('#loadModalTeams').select2({
+                data: selectSavedTeams,
+            });
+        });
+
+        $('#clearTeam').on('click', function () {
+            currentTeam = [];
+            $('#currentTeamRow .pokemon-box-wrapper').remove();
+            $('#littleD').show();
+            $('#container3').hide();
+            $('#container4').hide();
+            $('#abilityCheckboxDiv').hide();
         });
     });
 });
+
+function addPokemonRowEvents() {
+    $('.pokemonTrashCan').off('click').on('click', function () {
+        var pokeID = $(this).closest('.pokemon-box-wrapper').data('pokemonid');
+        console.log(pokeID);
+        for (var c in currentTeam) {
+            console.log(currentTeam[c].id);
+            if (currentTeam[c].id == pokeID) {
+                currentTeam.splice(c, 1);
+                break;
+            }
+        }
+        $(this).closest('.pokemon-box-wrapper').remove();
+
+        populateContainers();
+
+        if (currentTeam.length == 0) {
+            $('#littleD').show();
+            $('#container3').hide();
+            $('#container4').hide();
+            $('#abilityCheckboxDiv').hide();
+        }
+    });
+
+    $('.pokemon-box').off('click').on('click', function () {
+        selectedPokemon = pokemon[$(this).data('pokemonid')];
+        $('#pokemonListDropdown').val(selectedPokemon.id).trigger('change');
+        $(this).addClass('pokemon-selected');
+    });
+}
 
 function updateSelectedPokemon() {
     //var selectedBST = selectedPokemon.HP + selectedPokemon.Atk + selectedPokemon.Def + selectedPokemon.SpA + selectedPokemon.SpD + selectedPokemon.Spe;
@@ -147,7 +246,7 @@ function populateSpeedTiersTable() {
         for (var p in sortedTeam) {
             $('#teamSpeedTiersTable').append('<tr>' + 
                 /*'<td>' + sortedTeam[p].name + '</td>' +*/
-                '<td><img class="tiny-image" src="' + sortedTeam[p].spriteURL + '"></img></td>' +
+                '<td><img class="tiny-image" title="' + sortedTeam[p].name + '" src="' + sortedTeam[p].spriteURL + '"></img></td>' +
                 '<td>' + sortedTeam[p].spe + '</td>' +
                 '</tr>')
         }
@@ -156,29 +255,26 @@ function populateSpeedTiersTable() {
         return;
 }
 
-function populateContainer3() {
-
-}
-
-function populateContainer4() {
+function populateContainers() {
     populateSpeedTiersTable();
 
     $('#teamTypingsTable td[data-type]').html('');
     $('#offensiveCoverageTable td[data-type]').html('');
+    $('#importantMovesTable td[data-type]').html('');
     $('#weaknessesTable td[data-strength]').html('');
     $('#weaknessesTable .typeDifference').html('');
 
     for (var p in currentTeam) {
-        $('#teamTypingsTable td[data-type="' + currentTeam[p].type1.toLowerCase() + '"]').append('<img class="baby-image" src="' + currentTeam[p].spriteURL + '"></img>');
+        $('#teamTypingsTable td[data-type="' + currentTeam[p].type1.toLowerCase() + '"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
         // add '<img class="tiny-image" src="' + currentTeam[p].spriteURL + '"></img>' to the row associated with currentTeam[p].type1
         if (currentTeam[p].type2) {
-            $('#teamTypingsTable td[data-type="' + currentTeam[p].type2.toLowerCase() + '"]').append('<img class="baby-image" src="' + currentTeam[p].spriteURL + '"></img>');
+            $('#teamTypingsTable td[data-type="' + currentTeam[p].type2.toLowerCase() + '"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
             // add '<img class="tiny-image" src="' + currentTeam[p].spriteURL + '"></img>' to the row associated with currentTeam[p].type2
         }
 
         for (var t in currentTeam[p].offense) {
             if (currentTeam[p].offense[t] == 2) {
-                $('#offensiveCoverageTable td[data-type="' + t + '"]').append('<img class="baby-image" src="' + currentTeam[p].spriteURL + '"></img>');
+                $('#offensiveCoverageTable td[data-type="' + t + '"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
                 // add '<img class="tiny-image" src="' + currentTeam[p].spriteURL + '"></img>' to the row associated with t
             }
         }
@@ -186,14 +282,116 @@ function populateContainer4() {
         if ($('#abilityFactor').is(':checked')) {
             for (var t in currentTeam[p].defenseA) {
                 if (currentTeam[p].defenseA[t] != 1)
-                    $('#weaknessesTable tr[data-type="' + t + '"] td[data-strength="' + currentTeam[p].defenseA[t] + '"]').append('<img class="baby-image" src="' + currentTeam[p].spriteURL + '"></img>');
+                    $('#weaknessesTable tr[data-type="' + t + '"] td[data-strength="' + currentTeam[p].defenseA[t] + '"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
             }
         } else {
             for (var t in currentTeam[p].defenseNA) {
                 if (currentTeam[p].defenseNA[t] != 1)
-                    $('#weaknessesTable tr[data-type="' + t + '"] td[data-strength="' + currentTeam[p].defenseNA[t] + '"]').append('<img class="baby-image" src="' + currentTeam[p].spriteURL + '"></img>');
+                    $('#weaknessesTable tr[data-type="' + t + '"] td[data-strength="' + currentTeam[p].defenseNA[t] + '"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
             }
         }
+        var moveMonCounter = 0;
+        var currentMonID = currentTeam[p].id;
+        if (currentTeam[p].name.endsWith('-Mega'))
+            currentMonID = currentMonID.substring(0, currentMonID.length - 4);
+        else if (currentTeam[p].name.endsWith('-Mega-Y'))
+            currentMonID = currentMonID.substring(0, currentMonID.length - 5);
+        else if (currentTeam[p].name.endsWith('-Mega-X'))
+            currentMonID = currentMonID.substring(0, currentMonID.length - 5);
+        
+        if (learnsets[currentMonID].includes('stealthrock'))
+            $('#importantMovesTable td[data-type="rocks"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+        else if (currentTeam[p].hasOwnProperty('evo1'))
+            if (learnsets[currentTeam[p].evo1].includes('stealthrock'))
+                $('#importantMovesTable td[data-type="rocks"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+            else if (currentTeam[p].hasOwnProperty('evo2'))
+                if (learnsets[currentTeam[p].evo2].includes('stealthrock'))
+                    $('#importantMovesTable td[data-type="rocks"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+
+        if (learnsets[currentMonID].includes('spikes'))
+            $('#importantMovesTable td[data-type="spikes"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+        else if (currentTeam[p].hasOwnProperty('evo1'))
+            if (learnsets[currentTeam[p].evo1].includes('spikes'))
+                $('#importantMovesTable td[data-type="spikes"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+            else if (currentTeam[p].hasOwnProperty('evo2'))
+                if (learnsets[currentTeam[p].evo2].includes('spikes'))
+                    $('#importantMovesTable td[data-type="spikes"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+
+        if (learnsets[currentMonID].includes('toxicspikes'))
+            $('#importantMovesTable td[data-type="tspikes"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+        else if (currentTeam[p].hasOwnProperty('evo1'))
+            if (learnsets[currentTeam[p].evo1].includes('toxicspikes'))
+                $('#importantMovesTable td[data-type="tspikes"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+            else if (currentTeam[p].hasOwnProperty('evo2'))
+                if (learnsets[currentTeam[p].evo2].includes('toxicspikes'))
+                    $('#importantMovesTable td[data-type="tspikes"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+
+        if (learnsets[currentMonID].includes('stickyweb'))
+            $('#importantMovesTable td[data-type="webs"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+        else if (currentTeam[p].hasOwnProperty('evo1'))
+            if (learnsets[currentTeam[p].evo1].includes('stickyweb'))
+                $('#importantMovesTable td[data-type="webs"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+            else if (currentTeam[p].hasOwnProperty('evo2'))
+                if (learnsets[currentTeam[p].evo2].includes('stickyweb'))
+                    $('#importantMovesTable td[data-type="webs"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+
+        if (learnsets[currentMonID].includes('defog') || learnsets[currentMonID].includes('rapidspin'))
+            $('#importantMovesTable td[data-type="defog"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+        else if (currentTeam[p].hasOwnProperty('evo1'))
+            if (learnsets[currentTeam[p].evo1].includes('defog') || learnsets[currentTeam[p].evo1].includes('rapidspin'))
+                $('#importantMovesTable td[data-type="defog"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+            else if (currentTeam[p].hasOwnProperty('evo2'))
+                if (learnsets[currentTeam[p].evo2].includes('defog') || learnsets[currentTeam[p].evo1].includes('rapidspin'))
+                    $('#importantMovesTable td[data-type="defog"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+
+        if (learnsets[currentMonID].includes('healbell') || learnsets[currentMonID].includes('aromatherapy'))
+            $('#importantMovesTable td[data-type="healbell"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+        else if (currentTeam[p].hasOwnProperty('evo1'))
+            if (learnsets[currentTeam[p].evo1].includes('healbell'))
+                $('#importantMovesTable td[data-type="healbell"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+            else if (currentTeam[p].hasOwnProperty('evo2'))
+                if (learnsets[currentTeam[p].evo2].includes('healbell'))
+                    $('#importantMovesTable td[data-type="healbell"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+
+        if (learnsets[currentMonID].includes('wish'))
+            $('#importantMovesTable td[data-type="wish"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+        else if (currentTeam[p].hasOwnProperty('evo1'))
+            if (learnsets[currentTeam[p].evo1].includes('wish'))
+                $('#importantMovesTable td[data-type="wish"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+            else if (currentTeam[p].hasOwnProperty('evo2'))
+                if (learnsets[currentTeam[p].evo2].includes('wish'))
+                    $('#importantMovesTable td[data-type="wish"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+
+        var recoveryArray = ['roost', 'softboiled', 'recover', 'moonlight', 'morningsun', 'synthesis', 'milkdrink', 'healorder', 'slackoff', 'shoreup'];
+        if (recoveryArray.some(m => learnsets[currentMonID].includes(m)))
+            $('#importantMovesTable td[data-type="recovery"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+        else if (currentTeam[p].hasOwnProperty('evo1'))
+            if (recoveryArray.some(m => learnsets[currentTeam[p].evo1].includes(m)))
+                $('#importantMovesTable td[data-type="recovery"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+            else if (currentTeam[p].hasOwnProperty('evo2'))
+                if (recoveryArray.some(m => learnsets[currentTeam[p].evo2].includes(m)))
+                    $('#importantMovesTable td[data-type="recovery"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+
+        var pivotingArray = ['uturn', 'voltswitch', 'flipturn', 'teleport', 'partingshot'];
+        if (pivotingArray.some(m => learnsets[currentMonID].includes(m)))
+            $('#importantMovesTable td[data-type="pivoting"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+        else if (currentTeam[p].hasOwnProperty('evo1'))
+            if (pivotingArray.some(m => learnsets[currentTeam[p].evo1].includes(m)))
+                $('#importantMovesTable td[data-type="pivoting"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+            else if (currentTeam[p].hasOwnProperty('evo2'))
+                if (pivotingArray.some(m => learnsets[currentTeam[p].evo2].includes(m)))
+                    $('#importantMovesTable td[data-type="pivoting"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+
+        var priorityArray = ['fakeout', 'extremespeed', 'firstimpression', 'accelerock', 'aquajet', 'bulletpunch', 'iceshard', 'machpunch', 'quickattack', 'shadowsneak',
+            'suckerpunch', 'vacuumwave', 'watershuriken'];
+        if (priorityArray.some(m => learnsets[currentMonID].includes(m)))
+            $('#importantMovesTable td[data-type="priority"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+        else if (currentTeam[p].hasOwnProperty('evo1'))
+            if (priorityArray.some(m => learnsets[currentTeam[p].evo1].includes(m)))
+                $('#importantMovesTable td[data-type="priority"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
+            else if (currentTeam[p].hasOwnProperty('evo2'))
+                if (priorityArray.some(m => learnsets[currentTeam[p].evo2].includes(m)))
+                    $('#importantMovesTable td[data-type="priority"]').append('<img class="baby-image" title="' + currentTeam[p].name + '" src="' + currentTeam[p].spriteURL + '"></img>');
     }
 
     $('#weaknessesTable tr[data-type]').each(function () {
@@ -218,6 +416,12 @@ function populateContainer4() {
 function getSpriteURL(curMon) {
     var spriteURL = "";
     console.log(curMon);
+    spriteURL += "https://play.pokemonshowdown.com/sprites/ani/";
+    if (curMon.name == "Urshifu-Rapid-Strike")
+        spriteURL += 'urshifu-rapidstrike';
+    else
+        spriteURL += curMon.name.toLowerCase();
+    /*
     if (curMon.num < 810) {
         spriteURL += "https://projectpokemon.org/images/normal-sprite/";
         if (curMon.name.endsWith("-Mega")) {
@@ -257,7 +461,17 @@ function getSpriteURL(curMon) {
         spriteURL += "https://projectpokemon.org/images/sprites-models/swsh-normal-sprites/";
         spriteURL += curMon.id;
     }
+    */
+    if (curMon.name == "Kommo-o")
+        spriteURL = spriteURL.replace('-', '');
+    if (curMon.name == "Charizard-Mega-Y")
+        spriteURL = spriteURL.replace('mega-y', 'megay');
+    if (curMon.name == "Charizard-Mega-X")
+        spriteURL = spriteURL.replace('mega-x', 'megax');
     spriteURL += ".gif";
+    spriteURL = spriteURL.replace(' ', '');
+    spriteURL = spriteURL.replace('%', '');
+    spriteURL = spriteURL.replace("’", '');
     console.log(spriteURL);
     curMon.spriteURL = spriteURL;
     return curMon;

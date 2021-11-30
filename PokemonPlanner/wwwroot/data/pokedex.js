@@ -26,6 +26,7 @@ var Pokedex  = {
 		evoLevel: 16,
 		evos: ["Venusaur"],
 		eggGroups: ["Monster", "Grass"],
+		preEvos: ["Bulbasaur"]
 	},
 	venusaur: {
 		num: 3,
@@ -43,6 +44,7 @@ var Pokedex  = {
 		otherFormes: ["Venusaur-Mega"],
 		formeOrder: ["Venusaur", "Venusaur-Mega"],
 		canGigantamax: "G-Max Vine Lash",
+		preEvos: ["Bulbasaur", "Ivysaur"]
 	},
 	venusaurmega: {
 		num: 3,
@@ -101,6 +103,7 @@ var Pokedex  = {
 		evoLevel: 16,
 		evos: ["Charizard"],
 		eggGroups: ["Monster", "Dragon"],
+		preEvos: ["Charmander"]
 	},
 	charizard: {
 		num: 6,
@@ -118,6 +121,7 @@ var Pokedex  = {
 		otherFormes: ["Charizard-Mega-X", "Charizard-Mega-Y"],
 		formeOrder: ["Charizard", "Charizard-Mega-X", "Charizard-Mega-Y"],
 		canGigantamax: "G-Max Wildfire",
+		preEvos: ["Charmander", "Charmeleon"]
 	},
 	charizardmegax: {
 		num: 6,
@@ -191,6 +195,7 @@ var Pokedex  = {
 		evoLevel: 16,
 		evos: ["Blastoise"],
 		eggGroups: ["Monster", "Water 1"],
+		preEvos: ["Squirtle"]
 	},
 	blastoise: {
 		num: 9,
@@ -208,6 +213,7 @@ var Pokedex  = {
 		otherFormes: ["Blastoise-Mega"],
 		formeOrder: ["Blastoise", "Blastoise-Mega"],
 		canGigantamax: "G-Max Cannonade",
+		preEvos: ["Squirtle", "Wartortle"]
 	},
 	blastoisemega: {
 		num: 9,
@@ -264,6 +270,7 @@ var Pokedex  = {
 		evoLevel: 7,
 		evos: ["Butterfree"],
 		eggGroups: ["Bug"],
+		preEvos: ["Caterpie"]
 	},
 	butterfree: {
 		num: 12,
@@ -278,6 +285,7 @@ var Pokedex  = {
 		evoLevel: 10,
 		eggGroups: ["Bug"],
 		canGigantamax: "G-Max Befuddle",
+		preEvos: ["Caterpie", "Metapod"]
 	},
 	butterfreegmax: {
 		num: 12,
@@ -318,6 +326,7 @@ var Pokedex  = {
 		evoLevel: 7,
 		evos: ["Beedrill"],
 		eggGroups: ["Bug"],
+		preEvos: ["Weedle"]
 	},
 	beedrill: {
 		num: 15,
@@ -333,6 +342,7 @@ var Pokedex  = {
 		eggGroups: ["Bug"],
 		otherFormes: ["Beedrill-Mega"],
 		formeOrder: ["Beedrill", "Beedrill-Mega"],
+		preEvos: ["Weedle", "Kakuna"]
 	},
 	beedrillmega: {
 		num: 15,

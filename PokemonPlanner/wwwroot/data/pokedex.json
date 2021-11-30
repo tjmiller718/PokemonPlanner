@@ -13,7 +13,8 @@
     "spe": 60,
     "weight": 135.5,
     "type1": "Grass",
-    "type2": "Ice"
+    "type2": "Ice",
+    "evo1": "snover"
   },
   "abomasnowmega": {
     "id": "abomasnowmega",
@@ -28,7 +29,8 @@
     "spe": 30,
     "weight": 185,
     "type1": "Grass",
-    "type2": "Ice"
+    "type2": "Ice",
+    "evo1": "snover"
   },
   "abra": {
     "id": "abra",
@@ -90,7 +92,8 @@
     "spd": 60,
     "spe": 145,
     "weight": 25.3,
-    "type1": "Bug"
+    "type1": "Bug",
+    "evo1": "shelmet"
   },
   "aegislash": {
     "id": "aegislash",
@@ -105,7 +108,9 @@
     "spe": 60,
     "weight": 53,
     "type1": "Steel",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "doublade",
+    "evo2": "honedge"
   },
   "aegislashblade": {
     "id": "aegislashblade",
@@ -120,7 +125,9 @@
     "spe": 60,
     "weight": 53,
     "type1": "Steel",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "doublade",
+    "evo2": "honedge"
   },
   "aerodactyl": {
     "id": "aerodactyl",
@@ -169,7 +176,9 @@
     "spe": 50,
     "weight": 360,
     "type1": "Steel",
-    "type2": "Rock"
+    "type2": "Rock",
+    "evo1": "lairon",
+    "evo2": "aron"
   },
   "aggronmega": {
     "id": "aggronmega",
@@ -183,7 +192,9 @@
     "spd": 80,
     "spe": 50,
     "weight": 395,
-    "type1": "Steel"
+    "type1": "Steel",
+    "evo1": "lairon",
+    "evo2": "aron"
   },
   "aipom": {
     "id": "aipom",
@@ -215,7 +226,9 @@
     "spd": 95,
     "spe": 120,
     "weight": 48,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "kadabra",
+    "evo2": "abra"
   },
   "alakazammega": {
     "id": "alakazammega",
@@ -229,7 +242,9 @@
     "spd": 105,
     "spe": 150,
     "weight": 48,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "kadabra",
+    "evo2": "abra"
   },
   "alcremie": {
     "id": "alcremie",
@@ -244,7 +259,8 @@
     "spd": 121,
     "spe": 64,
     "weight": 0.5,
-    "type1": "Fairy"
+    "type1": "Fairy",
+    "evo1": "milcery"
   },
   "alomomola": {
     "id": "alomomola",
@@ -276,7 +292,8 @@
     "spe": 80,
     "weight": 20.6,
     "type1": "Dragon",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "swablu"
   },
   "altariamega": {
     "id": "altariamega",
@@ -291,7 +308,8 @@
     "spe": 80,
     "weight": 20.6,
     "type1": "Dragon",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "swablu"
   },
   "amaura": {
     "id": "amaura",
@@ -323,7 +341,8 @@
     "spd": 66,
     "spe": 115,
     "weight": 20.3,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "aipom"
   },
   "amoonguss": {
     "id": "amoonguss",
@@ -339,7 +358,8 @@
     "spe": 30,
     "weight": 10.5,
     "type1": "Grass",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "foongus"
   },
   "ampharos": {
     "id": "ampharos",
@@ -354,7 +374,9 @@
     "spd": 90,
     "spe": 55,
     "weight": 61.5,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "flaaffy",
+    "evo2": "mareep"
   },
   "ampharosmega": {
     "id": "ampharosmega",
@@ -369,7 +391,9 @@
     "spe": 45,
     "weight": 61.5,
     "type1": "Electric",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "flaaffy",
+    "evo2": "mareep"
   },
   "anorith": {
     "id": "anorith",
@@ -402,7 +426,8 @@
     "spe": 30,
     "weight": 13,
     "type1": "Grass",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "applin"
   },
   "applin": {
     "id": "applin",
@@ -435,7 +460,8 @@
     "spe": 42,
     "weight": 82,
     "type1": "Water",
-    "type2": "Bug"
+    "type2": "Bug",
+    "evo1": "dewpider"
   },
   "araquanidtotem": {
     "id": "araquanidtotem",
@@ -450,7 +476,8 @@
     "spe": 42,
     "weight": 217.5,
     "type1": "Water",
-    "type2": "Bug"
+    "type2": "Bug",
+    "evo1": "dewpider"
   },
   "arbok": {
     "id": "arbok",
@@ -466,7 +493,8 @@
     "spd": 79,
     "spe": 80,
     "weight": 65,
-    "type1": "Poison"
+    "type1": "Poison",
+    "evo1": "ekans"
   },
   "arcanine": {
     "id": "arcanine",
@@ -482,7 +510,8 @@
     "spd": 80,
     "spe": 95,
     "weight": 155,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "growlithe"
   },
   "arceus": {
     "id": "arceus",
@@ -764,7 +793,8 @@
     "spe": 110,
     "weight": 32,
     "type1": "Rock",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "archen"
   },
   "arctovish": {
     "id": "arctovish",
@@ -815,7 +845,8 @@
     "spe": 40,
     "weight": 33.5,
     "type1": "Bug",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "spinarak"
   },
   "armaldo": {
     "id": "armaldo",
@@ -831,7 +862,8 @@
     "spe": 45,
     "weight": 68.2,
     "type1": "Rock",
-    "type2": "Bug"
+    "type2": "Bug",
+    "evo1": "anorith"
   },
   "aromatisse": {
     "id": "aromatisse",
@@ -846,7 +878,8 @@
     "spd": 89,
     "spe": 29,
     "weight": 15.5,
-    "type1": "Fairy"
+    "type1": "Fairy",
+    "evo1": "spritzee"
   },
   "aron": {
     "id": "aron",
@@ -956,7 +989,8 @@
     "spe": 58,
     "weight": 225,
     "type1": "Rock",
-    "type2": "Ice"
+    "type2": "Ice",
+    "evo1": "amaura"
   },
   "avalugg": {
     "id": "avalugg",
@@ -972,7 +1006,8 @@
     "spd": 46,
     "spe": 28,
     "weight": 505,
-    "type1": "Ice"
+    "type1": "Ice",
+    "evo1": "bergmite"
   },
   "axew": {
     "id": "axew",
@@ -1019,7 +1054,9 @@
     "spe": 50,
     "weight": 28.5,
     "type1": "Water",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "marill",
+    "evo2": "azurill"
   },
   "azurill": {
     "id": "azurill",
@@ -1082,7 +1119,8 @@
     "spd": 63,
     "spe": 65,
     "weight": 12.5,
-    "type1": "Ghost"
+    "type1": "Ghost",
+    "evo1": "shuppet"
   },
   "banettemega": {
     "id": "banettemega",
@@ -1096,7 +1134,8 @@
     "spd": 83,
     "spe": 75,
     "weight": 13,
-    "type1": "Ghost"
+    "type1": "Ghost",
+    "evo1": "shuppet"
   },
   "barbaracle": {
     "id": "barbaracle",
@@ -1113,7 +1152,8 @@
     "spe": 68,
     "weight": 96,
     "type1": "Rock",
-    "type2": "Water"
+    "type2": "Water",
+    "evo1": "binacle"
   },
   "barboach": {
     "id": "barboach",
@@ -1145,7 +1185,8 @@
     "spd": 50,
     "spe": 136,
     "weight": 30,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "arrokuda"
   },
   "basculin": {
     "id": "basculin",
@@ -1193,7 +1234,8 @@
     "spe": 30,
     "weight": 149.5,
     "type1": "Rock",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "shieldon"
   },
   "bayleef": {
     "id": "bayleef",
@@ -1208,7 +1250,8 @@
     "spd": 80,
     "spe": 60,
     "weight": 15.8,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "chikorita"
   },
   "beartic": {
     "id": "beartic",
@@ -1224,7 +1267,8 @@
     "spd": 80,
     "spe": 50,
     "weight": 260,
-    "type1": "Ice"
+    "type1": "Ice",
+    "evo1": "cubchoo"
   },
   "beautifly": {
     "id": "beautifly",
@@ -1240,7 +1284,9 @@
     "spe": 65,
     "weight": 28.4,
     "type1": "Bug",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "wurmple",
+    "evo2": "silcoon"
   },
   "beedrill": {
     "id": "beedrill",
@@ -1256,7 +1302,9 @@
     "spe": 75,
     "weight": 29.5,
     "type1": "Bug",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "weedle",
+    "evo2": "kakuna"
   },
   "beedrillmega": {
     "id": "beedrillmega",
@@ -1271,7 +1319,9 @@
     "spe": 145,
     "weight": 40.5,
     "type1": "Bug",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "weedle",
+    "evo2": "kakuna"
   },
   "beheeyem": {
     "id": "beheeyem",
@@ -1287,7 +1337,8 @@
     "spd": 95,
     "spe": 40,
     "weight": 34.5,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "elgyem"
   },
   "beldum": {
     "id": "beldum",
@@ -1318,7 +1369,9 @@
     "spd": 100,
     "spe": 50,
     "weight": 5.8,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "gloom",
+    "evo2": "oddish"
   },
   "bellsprout": {
     "id": "bellsprout",
@@ -1367,7 +1420,8 @@
     "spe": 60,
     "weight": 135,
     "type1": "Normal",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "stufful"
   },
   "bibarel": {
     "id": "bibarel",
@@ -1384,7 +1438,8 @@
     "spe": 71,
     "weight": 31.5,
     "type1": "Normal",
-    "type2": "Water"
+    "type2": "Water",
+    "evo1": "bidoof"
   },
   "bidoof": {
     "id": "bidoof",
@@ -1434,7 +1489,8 @@
     "spe": 70,
     "weight": 70,
     "type1": "Dark",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "pawniard"
   },
   "blacephalon": {
     "id": "blacephalon",
@@ -1464,7 +1520,9 @@
     "spd": 105,
     "spe": 78,
     "weight": 85.5,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "wartortle",
+    "evo2": "squirtle"
   },
   "blastoisemega": {
     "id": "blastoisemega",
@@ -1478,7 +1536,9 @@
     "spd": 115,
     "spe": 78,
     "weight": 101.1,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "wartortle",
+    "evo2": "squirtle"
   },
   "blaziken": {
     "id": "blaziken",
@@ -1494,7 +1554,9 @@
     "spe": 80,
     "weight": 52,
     "type1": "Fire",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "combusken",
+    "evo2": "torchic"
   },
   "blazikenmega": {
     "id": "blazikenmega",
@@ -1509,7 +1571,9 @@
     "spe": 100,
     "weight": 52,
     "type1": "Fire",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "combusken",
+    "evo2": "torchic"
   },
   "blipbug": {
     "id": "blipbug",
@@ -1541,7 +1605,9 @@
     "spd": 135,
     "spe": 55,
     "weight": 46.8,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "chansey",
+    "evo2": "happiny"
   },
   "blitzle": {
     "id": "blitzle",
@@ -1573,7 +1639,8 @@
     "spd": 40,
     "spe": 20,
     "weight": 102,
-    "type1": "Rock"
+    "type1": "Rock",
+    "evo1": "roggenrola"
   },
   "boltund": {
     "id": "boltund",
@@ -1588,7 +1655,8 @@
     "spd": 60,
     "spe": 121,
     "weight": 34,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "yamper"
   },
   "bonsly": {
     "id": "bonsly",
@@ -1651,7 +1719,8 @@
     "spd": 70,
     "spe": 73,
     "weight": 14.5,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "fennekin"
   },
   "braviary": {
     "id": "braviary",
@@ -1668,7 +1737,8 @@
     "spe": 80,
     "weight": 41,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "rufflet"
   },
   "breloom": {
     "id": "breloom",
@@ -1685,7 +1755,8 @@
     "spe": 70,
     "weight": 39.2,
     "type1": "Grass",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "shroomish"
   },
   "brionne": {
     "id": "brionne",
@@ -1700,7 +1771,8 @@
     "spd": 81,
     "spe": 50,
     "weight": 17.5,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "popplio"
   },
   "bronzong": {
     "id": "bronzong",
@@ -1717,7 +1789,8 @@
     "spe": 33,
     "weight": 187,
     "type1": "Steel",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "bronzor"
   },
   "bronzor": {
     "id": "bronzor",
@@ -1862,7 +1935,9 @@
     "spe": 70,
     "weight": 32,
     "type1": "Bug",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "metapod",
+    "evo2": "caterpie"
   },
   "buzzwole": {
     "id": "buzzwole",
@@ -1908,7 +1983,8 @@
     "spe": 55,
     "weight": 77.4,
     "type1": "Grass",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "cacnea"
   },
   "calyrex": {
     "id": "calyrex",
@@ -1970,7 +2046,8 @@
     "spe": 40,
     "weight": 220,
     "type1": "Fire",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "numel"
   },
   "cameruptmega": {
     "id": "cameruptmega",
@@ -1985,7 +2062,8 @@
     "spe": 20,
     "weight": 320.5,
     "type1": "Fire",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "numel"
   },
   "carbink": {
     "id": "carbink",
@@ -2018,7 +2096,8 @@
     "spe": 50,
     "weight": 78,
     "type1": "Rock",
-    "type2": "Fire"
+    "type2": "Fire",
+    "evo1": "rolycoly"
   },
   "carnivine": {
     "id": "carnivine",
@@ -2049,7 +2128,8 @@
     "spe": 32,
     "weight": 81,
     "type1": "Water",
-    "type2": "Rock"
+    "type2": "Rock",
+    "evo1": "tirtouga"
   },
   "carvanha": {
     "id": "carvanha",
@@ -2079,7 +2159,8 @@
     "spd": 25,
     "spe": 15,
     "weight": 11.5,
-    "type1": "Bug"
+    "type1": "Bug",
+    "evo1": "wurmple"
   },
   "castform": {
     "id": "castform",
@@ -2197,7 +2278,8 @@
     "spe": 65,
     "weight": 120,
     "type1": "Fire",
-    "type2": "Bug"
+    "type2": "Bug",
+    "evo1": "sizzlipede"
   },
   "chandelure": {
     "id": "chandelure",
@@ -2214,7 +2296,9 @@
     "spe": 80,
     "weight": 34.3,
     "type1": "Ghost",
-    "type2": "Fire"
+    "type2": "Fire",
+    "evo1": "lampent",
+    "evo2": "litwick"
   },
   "chansey": {
     "id": "chansey",
@@ -2230,7 +2314,8 @@
     "spd": 105,
     "spe": 50,
     "weight": 34.6,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "happiny"
   },
   "charizard": {
     "id": "charizard",
@@ -2246,7 +2331,9 @@
     "spe": 100,
     "weight": 90.5,
     "type1": "Fire",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "charmeleon",
+    "evo2": "charmander"
   },
   "charizardmegax": {
     "id": "charizardmegax",
@@ -2261,7 +2348,9 @@
     "spe": 100,
     "weight": 110.5,
     "type1": "Fire",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "charmeleon",
+    "evo2": "charmander"
   },
   "charizardmegay": {
     "id": "charizardmegay",
@@ -2276,7 +2365,9 @@
     "spe": 100,
     "weight": 100.5,
     "type1": "Fire",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "charmeleon",
+    "evo2": "charmander"
   },
   "charjabug": {
     "id": "charjabug",
@@ -2291,7 +2382,8 @@
     "spe": 36,
     "weight": 10.5,
     "type1": "Bug",
-    "type2": "Electric"
+    "type2": "Electric",
+    "evo1": "grubbin"
   },
   "charmander": {
     "id": "charmander",
@@ -2321,7 +2413,8 @@
     "spd": 65,
     "spe": 80,
     "weight": 19,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "charmander"
   },
   "chatot": {
     "id": "chatot",
@@ -2352,7 +2445,8 @@
     "spd": 78,
     "spe": 85,
     "weight": 9.3,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "cherubi"
   },
   "cherrimsunshine": {
     "id": "cherrimsunshine",
@@ -2366,7 +2460,8 @@
     "spd": 78,
     "spe": 85,
     "weight": 9.3,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "cherubi"
   },
   "cherubi": {
     "id": "cherubi",
@@ -2396,7 +2491,9 @@
     "spe": 64,
     "weight": 90,
     "type1": "Grass",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "quilladin",
+    "evo2": "chespin"
   },
   "chespin": {
     "id": "chespin",
@@ -2471,7 +2568,8 @@
     "spd": 90,
     "spe": 65,
     "weight": 1,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "chingling"
   },
   "chinchou": {
     "id": "chinchou",
@@ -2518,7 +2616,8 @@
     "spd": 60,
     "spe": 115,
     "weight": 7.5,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "minccino"
   },
   "cinderace": {
     "id": "cinderace",
@@ -2533,7 +2632,9 @@
     "spd": 75,
     "spe": 119,
     "weight": 33,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "raboot",
+    "evo2": "scorbunny"
   },
   "clamperl": {
     "id": "clamperl",
@@ -2576,7 +2677,8 @@
     "spd": 89,
     "spe": 59,
     "weight": 35.3,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "clauncher"
   },
   "claydol": {
     "id": "claydol",
@@ -2591,7 +2693,8 @@
     "spe": 75,
     "weight": 108,
     "type1": "Ground",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "baltoy"
   },
   "clefable": {
     "id": "clefable",
@@ -2607,7 +2710,9 @@
     "spd": 90,
     "spe": 60,
     "weight": 40,
-    "type1": "Fairy"
+    "type1": "Fairy",
+    "evo1": "clefairy",
+    "evo2": "cleffa"
   },
   "clefairy": {
     "id": "clefairy",
@@ -2623,7 +2728,8 @@
     "spd": 65,
     "spe": 35,
     "weight": 7.5,
-    "type1": "Fairy"
+    "type1": "Fairy",
+    "evo1": "cleffa"
   },
   "cleffa": {
     "id": "cleffa",
@@ -2671,7 +2777,8 @@
     "spe": 70,
     "weight": 132.5,
     "type1": "Water",
-    "type2": "Ice"
+    "type2": "Ice",
+    "evo1": "shellder"
   },
   "coalossal": {
     "id": "coalossal",
@@ -2688,7 +2795,9 @@
     "spe": 30,
     "weight": 310.5,
     "type1": "Rock",
-    "type2": "Fire"
+    "type2": "Fire",
+    "evo1": "carkol",
+    "evo2": "rolycoly"
   },
   "cobalion": {
     "id": "cobalion",
@@ -2717,7 +2826,8 @@
     "spd": 105,
     "spe": 30,
     "weight": 76.5,
-    "type1": "Ghost"
+    "type1": "Ghost",
+    "evo1": "yamask"
   },
   "combee": {
     "id": "combee",
@@ -2749,7 +2859,8 @@
     "spe": 55,
     "weight": 19.5,
     "type1": "Fire",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "torchic"
   },
   "comfey": {
     "id": "comfey",
@@ -2781,7 +2892,9 @@
     "spd": 65,
     "spe": 45,
     "weight": 87,
-    "type1": "Fighting"
+    "type1": "Fighting",
+    "evo1": "gurdurr",
+    "evo2": "timburr"
   },
   "copperajah": {
     "id": "copperajah",
@@ -2796,7 +2909,8 @@
     "spd": 69,
     "spe": 30,
     "weight": 650,
-    "type1": "Steel"
+    "type1": "Steel",
+    "evo1": "cufant"
   },
   "corphish": {
     "id": "corphish",
@@ -2861,7 +2975,9 @@
     "spe": 67,
     "weight": 75,
     "type1": "Flying",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "corvisquire",
+    "evo2": "rookidee"
   },
   "corvisquire": {
     "id": "corvisquire",
@@ -2877,7 +2993,8 @@
     "spd": 55,
     "spe": 77,
     "weight": 16,
-    "type1": "Flying"
+    "type1": "Flying",
+    "evo1": "rookidee"
   },
   "cosmoem": {
     "id": "cosmoem",
@@ -2891,7 +3008,8 @@
     "spd": 131,
     "spe": 37,
     "weight": 999.9,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "cosmog"
   },
   "cosmog": {
     "id": "cosmog",
@@ -2939,7 +3057,8 @@
     "spe": 43,
     "weight": 180,
     "type1": "Fighting",
-    "type2": "Ice"
+    "type2": "Ice",
+    "evo1": "crabrawler"
   },
   "crabrawler": {
     "id": "crabrawler",
@@ -2971,7 +3090,8 @@
     "spe": 43,
     "weight": 60.4,
     "type1": "Rock",
-    "type2": "Grass"
+    "type2": "Grass",
+    "evo1": "lileep"
   },
   "cramorant": {
     "id": "cramorant",
@@ -3048,7 +3168,8 @@
     "spe": 55,
     "weight": 32.8,
     "type1": "Water",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "corphish"
   },
   "cresselia": {
     "id": "cresselia",
@@ -3095,7 +3216,9 @@
     "spe": 130,
     "weight": 75,
     "type1": "Poison",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "golbat",
+    "evo2": "zubat"
   },
   "croconaw": {
     "id": "croconaw",
@@ -3110,7 +3233,8 @@
     "spd": 63,
     "spe": 58,
     "weight": 25,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "totodile"
   },
   "crustle": {
     "id": "crustle",
@@ -3127,7 +3251,8 @@
     "spe": 45,
     "weight": 200,
     "type1": "Bug",
-    "type2": "Rock"
+    "type2": "Rock",
+    "evo1": "dwebble"
   },
   "cryogonal": {
     "id": "cryogonal",
@@ -3203,7 +3328,8 @@
     "spd": 130,
     "spe": 30,
     "weight": 0.4,
-    "type1": "Ghost"
+    "type1": "Ghost",
+    "evo1": "corsolagalar"
   },
   "cutiefly": {
     "id": "cutiefly",
@@ -3264,7 +3390,8 @@
     "spd": 55,
     "spe": 95,
     "weight": 92.9,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "darumaka"
   },
   "darmanitangalar": {
     "id": "darmanitangalar",
@@ -3279,7 +3406,8 @@
     "spd": 55,
     "spe": 95,
     "weight": 120,
-    "type1": "Ice"
+    "type1": "Ice",
+    "evo1": "darumakagalar"
   },
   "dartrix": {
     "id": "dartrix",
@@ -3295,7 +3423,8 @@
     "spe": 52,
     "weight": 16,
     "type1": "Grass",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "rowlet"
   },
   "darumaka": {
     "id": "darumaka",
@@ -3341,7 +3470,9 @@
     "spe": 70,
     "weight": 36.6,
     "type1": "Grass",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "dartrix",
+    "evo2": "rowlet"
   },
   "dedenne": {
     "id": "dedenne",
@@ -3406,7 +3537,8 @@
     "spd": 55,
     "spe": 90,
     "weight": 32.6,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "skitty"
   },
   "delibird": {
     "id": "delibird",
@@ -3439,7 +3571,9 @@
     "spe": 104,
     "weight": 39,
     "type1": "Fire",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "braixen",
+    "evo2": "fennekin"
   },
   "deoxys": {
     "id": "deoxys",
@@ -3512,7 +3646,8 @@
     "spe": 70,
     "weight": 120,
     "type1": "Water",
-    "type2": "Ice"
+    "type2": "Ice",
+    "evo1": "seel"
   },
   "dewott": {
     "id": "dewott",
@@ -3527,7 +3662,8 @@
     "spd": 60,
     "spe": 60,
     "weight": 24.5,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "oshawott"
   },
   "dewpider": {
     "id": "dewpider",
@@ -3621,7 +3757,8 @@
     "spe": 78,
     "weight": 42.4,
     "type1": "Normal",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "bunnelby"
   },
   "diglett": {
     "id": "diglett",
@@ -3686,7 +3823,8 @@
     "spe": 110,
     "weight": 85.2,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "doduo"
   },
   "doduo": {
     "id": "doduo",
@@ -3718,7 +3856,8 @@
     "spd": 60,
     "spe": 50,
     "weight": 120,
-    "type1": "Ground"
+    "type1": "Ground",
+    "evo1": "phanpy"
   },
   "dottler": {
     "id": "dottler",
@@ -3735,7 +3874,8 @@
     "spe": 30,
     "weight": 19.5,
     "type1": "Bug",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "blipbug"
   },
   "doublade": {
     "id": "doublade",
@@ -3750,7 +3890,8 @@
     "spe": 35,
     "weight": 4.5,
     "type1": "Steel",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "honedge"
   },
   "dracovish": {
     "id": "dracovish",
@@ -3801,7 +3942,8 @@
     "spe": 44,
     "weight": 81.5,
     "type1": "Poison",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "skrelp"
   },
   "dragapult": {
     "id": "dragapult",
@@ -3818,7 +3960,9 @@
     "spe": 142,
     "weight": 50,
     "type1": "Dragon",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "drakloak",
+    "evo2": "dreepy"
   },
   "dragonair": {
     "id": "dragonair",
@@ -3833,7 +3977,8 @@
     "spd": 70,
     "spe": 70,
     "weight": 16.5,
-    "type1": "Dragon"
+    "type1": "Dragon",
+    "evo1": "dratini"
   },
   "dragonite": {
     "id": "dragonite",
@@ -3849,7 +3994,9 @@
     "spe": 80,
     "weight": 210,
     "type1": "Dragon",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "dragonair",
+    "evo2": "dratini"
   },
   "drakloak": {
     "id": "drakloak",
@@ -3866,7 +4013,8 @@
     "spe": 102,
     "weight": 11,
     "type1": "Dragon",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "dreepy"
   },
   "drampa": {
     "id": "drampa",
@@ -3900,7 +4048,8 @@
     "spe": 95,
     "weight": 61.5,
     "type1": "Poison",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "skorupi"
   },
   "dratini": {
     "id": "dratini",
@@ -3932,7 +4081,8 @@
     "spe": 74,
     "weight": 115.5,
     "type1": "Water",
-    "type2": "Rock"
+    "type2": "Rock",
+    "evo1": "chewtle"
   },
   "dreepy": {
     "id": "dreepy",
@@ -3966,7 +4116,8 @@
     "spe": 80,
     "weight": 15,
     "type1": "Ghost",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "drifloon"
   },
   "drifloon": {
     "id": "drifloon",
@@ -4014,7 +4165,8 @@
     "spd": 55,
     "spe": 90,
     "weight": 11.5,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "sobble"
   },
   "drowzee": {
     "id": "drowzee",
@@ -4062,7 +4214,8 @@
     "spd": 90,
     "spe": 88,
     "weight": 43,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "wooloo"
   },
   "ducklett": {
     "id": "ducklett",
@@ -4095,7 +4248,8 @@
     "spd": 70,
     "spe": 120,
     "weight": 33.3,
-    "type1": "Ground"
+    "type1": "Ground",
+    "evo1": "diglett"
   },
   "dugtrioalola": {
     "id": "dugtrioalola",
@@ -4112,7 +4266,8 @@
     "spe": 110,
     "weight": 66.6,
     "type1": "Ground",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "diglettalola"
   },
   "dunsparce": {
     "id": "dunsparce",
@@ -4144,7 +4299,8 @@
     "spd": 60,
     "spe": 30,
     "weight": 8,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "solosis"
   },
   "duraludon": {
     "id": "duraludon",
@@ -4193,7 +4349,8 @@
     "spd": 130,
     "spe": 25,
     "weight": 30.6,
-    "type1": "Ghost"
+    "type1": "Ghost",
+    "evo1": "duskull"
   },
   "dusknoir": {
     "id": "dusknoir",
@@ -4208,7 +4365,9 @@
     "spd": 135,
     "spe": 45,
     "weight": 106.6,
-    "type1": "Ghost"
+    "type1": "Ghost",
+    "evo1": "dusclops",
+    "evo2": "duskull"
   },
   "duskull": {
     "id": "duskull",
@@ -4239,7 +4398,9 @@
     "spe": 65,
     "weight": 31.6,
     "type1": "Bug",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "cascoon",
+    "evo2": "wurmple"
   },
   "dwebble": {
     "id": "dwebble",
@@ -4270,7 +4431,8 @@
     "spd": 70,
     "spe": 40,
     "weight": 22,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "tynamo"
   },
   "eelektross": {
     "id": "eelektross",
@@ -4284,7 +4446,9 @@
     "spd": 80,
     "spe": 50,
     "weight": 80.5,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "eelektrik",
+    "evo2": "tynamo"
   },
   "eevee": {
     "id": "eevee",
@@ -4360,7 +4524,8 @@
     "spd": 120,
     "spe": 60,
     "weight": 2.5,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "gossifleur"
   },
   "electabuzz": {
     "id": "electabuzz",
@@ -4375,7 +4540,8 @@
     "spd": 85,
     "spe": 105,
     "weight": 30,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "elekid"
   },
   "electivire": {
     "id": "electivire",
@@ -4390,7 +4556,9 @@
     "spd": 85,
     "spe": 95,
     "weight": 138.6,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "electabuzz",
+    "evo2": "elekid"
   },
   "electrike": {
     "id": "electrike",
@@ -4422,7 +4590,8 @@
     "spd": 80,
     "spe": 150,
     "weight": 66.6,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "voltorb"
   },
   "elekid": {
     "id": "elekid",
@@ -4469,7 +4638,9 @@
     "spe": 65,
     "weight": 150,
     "type1": "Fire",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "pignite",
+    "evo2": "tepig"
   },
   "emolga": {
     "id": "emolga",
@@ -4501,7 +4672,9 @@
     "spe": 60,
     "weight": 84.5,
     "type1": "Water",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "prinplup",
+    "evo2": "piplup"
   },
   "entei": {
     "id": "entei",
@@ -4533,7 +4706,8 @@
     "spe": 20,
     "weight": 33,
     "type1": "Bug",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "karrablast"
   },
   "espeon": {
     "id": "espeon",
@@ -4548,7 +4722,8 @@
     "spd": 95,
     "spe": 110,
     "weight": 26.5,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "eevee"
   },
   "espurr": {
     "id": "espurr",
@@ -4611,7 +4786,8 @@
     "spe": 88,
     "weight": 40.4,
     "type1": "Ground",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "drilbur"
   },
   "exeggcute": {
     "id": "exeggcute",
@@ -4643,7 +4819,8 @@
     "spe": 55,
     "weight": 120,
     "type1": "Grass",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "exeggcute"
   },
   "exeggutoralola": {
     "id": "exeggutoralola",
@@ -4659,7 +4836,8 @@
     "spe": 45,
     "weight": 415.6,
     "type1": "Grass",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "exeggcute"
   },
   "exploud": {
     "id": "exploud",
@@ -4674,7 +4852,9 @@
     "spd": 73,
     "spe": 68,
     "weight": 84,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "loudred",
+    "evo2": "whismur"
   },
   "falinks": {
     "id": "falinks",
@@ -4737,7 +4917,8 @@
     "spe": 100,
     "weight": 38,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "spearow"
   },
   "feebas": {
     "id": "feebas",
@@ -4783,7 +4964,9 @@
     "spd": 83,
     "spe": 78,
     "weight": 88.8,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "croconaw",
+    "evo2": "totodile"
   },
   "ferroseed": {
     "id": "ferroseed",
@@ -4814,7 +4997,8 @@
     "spe": 20,
     "weight": 110,
     "type1": "Grass",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "ferroseed"
   },
   "finneon": {
     "id": "finneon",
@@ -4845,7 +5029,8 @@
     "spd": 60,
     "spe": 45,
     "weight": 13.3,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "mareep"
   },
   "flabebe": {
     "id": "flabebe",
@@ -4877,7 +5062,8 @@
     "spe": 70,
     "weight": 1,
     "type1": "Grass",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "applin"
   },
   "flareon": {
     "id": "flareon",
@@ -4892,7 +5078,8 @@
     "spd": 110,
     "spe": 65,
     "weight": 25,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "eevee"
   },
   "fletchinder": {
     "id": "fletchinder",
@@ -4908,7 +5095,8 @@
     "spe": 84,
     "weight": 16,
     "type1": "Fire",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "fletchling"
   },
   "fletchling": {
     "id": "fletchling",
@@ -4939,7 +5127,8 @@
     "spd": 50,
     "spe": 115,
     "weight": 33.5,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "buizel"
   },
   "floette": {
     "id": "floette",
@@ -4954,7 +5143,8 @@
     "spd": 98,
     "spe": 52,
     "weight": 0.9,
-    "type1": "Fairy"
+    "type1": "Fairy",
+    "evo1": "flabebe"
   },
   "floetteeternal": {
     "id": "floetteeternal",
@@ -4968,7 +5158,8 @@
     "spd": 128,
     "spe": 92,
     "weight": 0.9,
-    "type1": "Fairy"
+    "type1": "Fairy",
+    "evo1": "flabebe"
   },
   "florges": {
     "id": "florges",
@@ -4983,7 +5174,9 @@
     "spd": 154,
     "spe": 75,
     "weight": 10,
-    "type1": "Fairy"
+    "type1": "Fairy",
+    "evo1": "floette",
+    "evo2": "flabebe"
   },
   "flygon": {
     "id": "flygon",
@@ -4998,7 +5191,9 @@
     "spe": 100,
     "weight": 82,
     "type1": "Ground",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "vibrava",
+    "evo2": "trapinch"
   },
   "fomantis": {
     "id": "fomantis",
@@ -5045,7 +5240,8 @@
     "spe": 40,
     "weight": 125.8,
     "type1": "Bug",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "pineco"
   },
   "fraxure": {
     "id": "fraxure",
@@ -5061,7 +5257,8 @@
     "spd": 50,
     "spe": 67,
     "weight": 36,
-    "type1": "Dragon"
+    "type1": "Dragon",
+    "evo1": "axew"
   },
   "frillish": {
     "id": "frillish",
@@ -5108,7 +5305,8 @@
     "spd": 56,
     "spe": 97,
     "weight": 10.9,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "froakie"
   },
   "froslass": {
     "id": "froslass",
@@ -5124,7 +5322,8 @@
     "spe": 110,
     "weight": 26.6,
     "type1": "Ice",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "snorunt"
   },
   "frosmoth": {
     "id": "frosmoth",
@@ -5140,7 +5339,8 @@
     "spe": 65,
     "weight": 42,
     "type1": "Ice",
-    "type2": "Bug"
+    "type2": "Bug",
+    "evo1": "snom"
   },
   "furfrou": {
     "id": "furfrou",
@@ -5170,7 +5370,8 @@
     "spd": 55,
     "spe": 90,
     "weight": 32.5,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "sentret"
   },
   "gabite": {
     "id": "gabite",
@@ -5186,7 +5387,8 @@
     "spe": 82,
     "weight": 56,
     "type1": "Dragon",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "gible"
   },
   "gallade": {
     "id": "gallade",
@@ -5202,7 +5404,9 @@
     "spe": 80,
     "weight": 52,
     "type1": "Psychic",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "kirlia",
+    "evo2": "ralts"
   },
   "gallademega": {
     "id": "gallademega",
@@ -5217,7 +5421,9 @@
     "spe": 110,
     "weight": 56.4,
     "type1": "Psychic",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "kirlia",
+    "evo2": "ralts"
   },
   "galvantula": {
     "id": "galvantula",
@@ -5234,7 +5440,8 @@
     "spe": 108,
     "weight": 14.3,
     "type1": "Bug",
-    "type2": "Electric"
+    "type2": "Electric",
+    "evo1": "joltik"
   },
   "garbodor": {
     "id": "garbodor",
@@ -5250,7 +5457,8 @@
     "spd": 82,
     "spe": 75,
     "weight": 107.3,
-    "type1": "Poison"
+    "type1": "Poison",
+    "evo1": "trubbish"
   },
   "garchomp": {
     "id": "garchomp",
@@ -5266,7 +5474,9 @@
     "spe": 102,
     "weight": 95,
     "type1": "Dragon",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "gabite",
+    "evo2": "gible"
   },
   "garchompmega": {
     "id": "garchompmega",
@@ -5281,7 +5491,9 @@
     "spe": 92,
     "weight": 95,
     "type1": "Dragon",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "gabite",
+    "evo2": "gible"
   },
   "gardevoir": {
     "id": "gardevoir",
@@ -5298,7 +5510,9 @@
     "spe": 80,
     "weight": 48.4,
     "type1": "Psychic",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "kirlia",
+    "evo2": "ralts"
   },
   "gardevoirmega": {
     "id": "gardevoirmega",
@@ -5313,7 +5527,9 @@
     "spe": 100,
     "weight": 48.4,
     "type1": "Psychic",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "kirlia",
+    "evo2": "ralts"
   },
   "gastly": {
     "id": "gastly",
@@ -5345,7 +5561,8 @@
     "spe": 39,
     "weight": 29.9,
     "type1": "Water",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "shellos"
   },
   "genesect": {
     "id": "genesect",
@@ -5435,7 +5652,9 @@
     "spe": 110,
     "weight": 40.5,
     "type1": "Ghost",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "haunter",
+    "evo2": "gastly"
   },
   "gengarmega": {
     "id": "gengarmega",
@@ -5450,7 +5669,9 @@
     "spe": 130,
     "weight": 40.5,
     "type1": "Ghost",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "haunter",
+    "evo2": "gastly"
   },
   "geodude": {
     "id": "geodude",
@@ -5516,7 +5737,9 @@
     "spd": 80,
     "spe": 25,
     "weight": 260,
-    "type1": "Rock"
+    "type1": "Rock",
+    "evo1": "boldore",
+    "evo2": "roggenrola"
   },
   "girafarig": {
     "id": "girafarig",
@@ -5579,7 +5802,8 @@
     "spd": 95,
     "spe": 65,
     "weight": 25.9,
-    "type1": "Ice"
+    "type1": "Ice",
+    "evo1": "eevee"
   },
   "glalie": {
     "id": "glalie",
@@ -5595,7 +5819,8 @@
     "spd": 80,
     "spe": 80,
     "weight": 256.5,
-    "type1": "Ice"
+    "type1": "Ice",
+    "evo1": "snorunt"
   },
   "glaliemega": {
     "id": "glaliemega",
@@ -5609,7 +5834,8 @@
     "spd": 80,
     "spe": 100,
     "weight": 350.2,
-    "type1": "Ice"
+    "type1": "Ice",
+    "evo1": "snorunt"
   },
   "glameow": {
     "id": "glameow",
@@ -5673,7 +5899,8 @@
     "spe": 95,
     "weight": 42.5,
     "type1": "Ground",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "gligar"
   },
   "gloom": {
     "id": "gloom",
@@ -5689,7 +5916,8 @@
     "spe": 40,
     "weight": 8.6,
     "type1": "Grass",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "oddish"
   },
   "gogoat": {
     "id": "gogoat",
@@ -5704,7 +5932,8 @@
     "spd": 81,
     "spe": 68,
     "weight": 91,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "skiddo"
   },
   "golbat": {
     "id": "golbat",
@@ -5720,7 +5949,8 @@
     "spe": 90,
     "weight": 55,
     "type1": "Poison",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "zubat"
   },
   "goldeen": {
     "id": "goldeen",
@@ -5752,7 +5982,8 @@
     "spd": 80,
     "spe": 85,
     "weight": 76.6,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "psyduck"
   },
   "golem": {
     "id": "golem",
@@ -5769,7 +6000,9 @@
     "spe": 45,
     "weight": 300,
     "type1": "Rock",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "graveler",
+    "evo2": "geodude"
   },
   "golemalola": {
     "id": "golemalola",
@@ -5786,7 +6019,9 @@
     "spe": 45,
     "weight": 316,
     "type1": "Rock",
-    "type2": "Electric"
+    "type2": "Electric",
+    "evo1": "graveleralola",
+    "evo2": "geodudealola"
   },
   "golett": {
     "id": "golett",
@@ -5818,7 +6053,8 @@
     "spe": 40,
     "weight": 108,
     "type1": "Bug",
-    "type2": "Water"
+    "type2": "Water",
+    "evo1": "wimpod"
   },
   "golurk": {
     "id": "golurk",
@@ -5835,7 +6071,8 @@
     "spe": 55,
     "weight": 330,
     "type1": "Ground",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "golett"
   },
   "goodra": {
     "id": "goodra",
@@ -5851,7 +6088,9 @@
     "spd": 150,
     "spe": 80,
     "weight": 150.5,
-    "type1": "Dragon"
+    "type1": "Dragon",
+    "evo1": "sliggoo",
+    "evo2": "goomy"
   },
   "goomy": {
     "id": "goomy",
@@ -5882,7 +6121,8 @@
     "spd": 75,
     "spe": 52,
     "weight": 22.6,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "clamperl"
   },
   "gossifleur": {
     "id": "gossifleur",
@@ -5930,7 +6170,9 @@
     "spd": 110,
     "spe": 65,
     "weight": 44,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "gothorita",
+    "evo2": "gothita"
   },
   "gothorita": {
     "id": "gothorita",
@@ -5946,7 +6188,8 @@
     "spd": 85,
     "spe": 55,
     "weight": 18,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "gothita"
   },
   "gourgeist": {
     "id": "gourgeist",
@@ -5963,7 +6206,8 @@
     "spe": 84,
     "weight": 12.5,
     "type1": "Ghost",
-    "type2": "Grass"
+    "type2": "Grass",
+    "evo1": "pumpkaboo"
   },
   "gourgeistlarge": {
     "id": "gourgeistlarge",
@@ -5980,7 +6224,8 @@
     "spe": 69,
     "weight": 14,
     "type1": "Ghost",
-    "type2": "Grass"
+    "type2": "Grass",
+    "evo1": "pumpkaboo"
   },
   "gourgeistsmall": {
     "id": "gourgeistsmall",
@@ -5997,7 +6242,8 @@
     "spe": 99,
     "weight": 9.5,
     "type1": "Ghost",
-    "type2": "Grass"
+    "type2": "Grass",
+    "evo1": "pumpkaboo"
   },
   "gourgeistsuper": {
     "id": "gourgeistsuper",
@@ -6014,7 +6260,8 @@
     "spe": 54,
     "weight": 39,
     "type1": "Ghost",
-    "type2": "Grass"
+    "type2": "Grass",
+    "evo1": "pumpkaboo"
   },
   "granbull": {
     "id": "granbull",
@@ -6030,7 +6277,8 @@
     "spd": 60,
     "spe": 45,
     "weight": 48.7,
-    "type1": "Fairy"
+    "type1": "Fairy",
+    "evo1": "snubbull"
   },
   "grapploct": {
     "id": "grapploct",
@@ -6045,7 +6293,8 @@
     "spd": 80,
     "spe": 42,
     "weight": 39,
-    "type1": "Fighting"
+    "type1": "Fighting",
+    "evo1": "clobbopus"
   },
   "graveler": {
     "id": "graveler",
@@ -6062,7 +6311,8 @@
     "spe": 35,
     "weight": 105,
     "type1": "Rock",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "geodude"
   },
   "graveleralola": {
     "id": "graveleralola",
@@ -6079,7 +6329,8 @@
     "spe": 35,
     "weight": 110,
     "type1": "Rock",
-    "type2": "Electric"
+    "type2": "Electric",
+    "evo1": "geodudealola"
   },
   "greedent": {
     "id": "greedent",
@@ -6094,7 +6345,8 @@
     "spd": 75,
     "spe": 20,
     "weight": 6,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "skwovet"
   },
   "greninja": {
     "id": "greninja",
@@ -6110,7 +6362,9 @@
     "spe": 122,
     "weight": 40,
     "type1": "Water",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "frogadier",
+    "evo2": "froakie"
   },
   "greninjaash": {
     "id": "greninjaash",
@@ -6125,7 +6379,9 @@
     "spe": 132,
     "weight": 40,
     "type1": "Water",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "frogadier",
+    "evo2": "froakie"
   },
   "grimer": {
     "id": "grimer",
@@ -6175,7 +6431,9 @@
     "spe": 60,
     "weight": 61,
     "type1": "Dark",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "morgrem",
+    "evo2": "impidimp"
   },
   "grookey": {
     "id": "grookey",
@@ -6205,7 +6463,8 @@
     "spd": 65,
     "spe": 36,
     "weight": 97,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "turtwig"
   },
   "groudon": {
     "id": "groudon",
@@ -6249,7 +6508,8 @@
     "spd": 65,
     "spe": 95,
     "weight": 21.6,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "treecko"
   },
   "growlithe": {
     "id": "growlithe",
@@ -6295,7 +6555,8 @@
     "spd": 110,
     "spe": 80,
     "weight": 71.5,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "spoink"
   },
   "gulpin": {
     "id": "gulpin",
@@ -6327,7 +6588,8 @@
     "spd": 60,
     "spe": 45,
     "weight": 14.2,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "yungoos"
   },
   "gumshoostotem": {
     "id": "gumshoostotem",
@@ -6341,7 +6603,8 @@
     "spd": 60,
     "spe": 45,
     "weight": 60,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "yungoos"
   },
   "gurdurr": {
     "id": "gurdurr",
@@ -6357,7 +6620,8 @@
     "spd": 50,
     "spe": 40,
     "weight": 40,
-    "type1": "Fighting"
+    "type1": "Fighting",
+    "evo1": "timburr"
   },
   "guzzlord": {
     "id": "guzzlord",
@@ -6388,7 +6652,8 @@
     "spe": 81,
     "weight": 235,
     "type1": "Water",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "magikarp"
   },
   "gyaradosmega": {
     "id": "gyaradosmega",
@@ -6403,7 +6668,8 @@
     "spe": 81,
     "weight": 305,
     "type1": "Water",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "magikarp"
   },
   "hakamoo": {
     "id": "hakamoo",
@@ -6420,7 +6686,8 @@
     "spe": 65,
     "weight": 47,
     "type1": "Dragon",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "jangmoo"
   },
   "happiny": {
     "id": "happiny",
@@ -6452,7 +6719,8 @@
     "spd": 60,
     "spe": 50,
     "weight": 253.8,
-    "type1": "Fighting"
+    "type1": "Fighting",
+    "evo1": "makuhita"
   },
   "hatenna": {
     "id": "hatenna",
@@ -6485,7 +6753,9 @@
     "spe": 29,
     "weight": 5.1,
     "type1": "Psychic",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "hattrem",
+    "evo2": "hatenna"
   },
   "hattrem": {
     "id": "hattrem",
@@ -6501,7 +6771,8 @@
     "spd": 73,
     "spe": 49,
     "weight": 4.8,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "hatenna"
   },
   "haunter": {
     "id": "haunter",
@@ -6516,7 +6787,8 @@
     "spe": 95,
     "weight": 0.1,
     "type1": "Ghost",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "gastly"
   },
   "hawlucha": {
     "id": "hawlucha",
@@ -6549,7 +6821,9 @@
     "spd": 70,
     "spe": 97,
     "weight": 105.5,
-    "type1": "Dragon"
+    "type1": "Dragon",
+    "evo1": "fraxure",
+    "evo2": "axew"
   },
   "heatmor": {
     "id": "heatmor",
@@ -6598,7 +6872,8 @@
     "spe": 109,
     "weight": 21,
     "type1": "Electric",
-    "type2": "Normal"
+    "type2": "Normal",
+    "evo1": "helioptile"
   },
   "helioptile": {
     "id": "helioptile",
@@ -6663,7 +6938,8 @@
     "spd": 65,
     "spe": 60,
     "weight": 14.7,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "lillipup"
   },
   "hippopotas": {
     "id": "hippopotas",
@@ -6693,7 +6969,8 @@
     "spd": 72,
     "spe": 47,
     "weight": 300,
-    "type1": "Ground"
+    "type1": "Ground",
+    "evo1": "hippopotas"
   },
   "hitmonchan": {
     "id": "hitmonchan",
@@ -6709,7 +6986,8 @@
     "spd": 110,
     "spe": 76,
     "weight": 50.2,
-    "type1": "Fighting"
+    "type1": "Fighting",
+    "evo1": "tyrogue"
   },
   "hitmonlee": {
     "id": "hitmonlee",
@@ -6725,7 +7003,8 @@
     "spd": 110,
     "spe": 87,
     "weight": 49.8,
-    "type1": "Fighting"
+    "type1": "Fighting",
+    "evo1": "tyrogue"
   },
   "hitmontop": {
     "id": "hitmontop",
@@ -6741,7 +7020,8 @@
     "spd": 110,
     "spe": 70,
     "weight": 48,
-    "type1": "Fighting"
+    "type1": "Fighting",
+    "evo1": "tyrogue"
   },
   "honchkrow": {
     "id": "honchkrow",
@@ -6758,7 +7038,8 @@
     "spe": 71,
     "weight": 27.3,
     "type1": "Dark",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "murkrow"
   },
   "honedge": {
     "id": "honedge",
@@ -6886,7 +7167,8 @@
     "spe": 95,
     "weight": 35,
     "type1": "Dark",
-    "type2": "Fire"
+    "type2": "Fire",
+    "evo1": "houndour"
   },
   "houndoommega": {
     "id": "houndoommega",
@@ -6901,7 +7183,8 @@
     "spe": 115,
     "weight": 49.5,
     "type1": "Dark",
-    "type2": "Fire"
+    "type2": "Fire",
+    "evo1": "houndour"
   },
   "houndour": {
     "id": "houndour",
@@ -6933,7 +7216,8 @@
     "spd": 75,
     "spe": 52,
     "weight": 27,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "clamperl"
   },
   "hydreigon": {
     "id": "hydreigon",
@@ -6948,7 +7232,9 @@
     "spe": 98,
     "weight": 160,
     "type1": "Dark",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "zweilous",
+    "evo2": "deino"
   },
   "hypno": {
     "id": "hypno",
@@ -6964,7 +7250,8 @@
     "spd": 115,
     "spe": 67,
     "weight": 75.6,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "drowzee"
   },
   "igglybuff": {
     "id": "igglybuff",
@@ -7030,7 +7317,9 @@
     "spe": 60,
     "weight": 83,
     "type1": "Fire",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "torracat",
+    "evo2": "litten"
   },
   "indeedee": {
     "id": "indeedee",
@@ -7080,7 +7369,9 @@
     "spe": 108,
     "weight": 55,
     "type1": "Fire",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "monferno",
+    "evo2": "chimchar"
   },
   "inkay": {
     "id": "inkay",
@@ -7112,7 +7403,9 @@
     "spd": 65,
     "spe": 120,
     "weight": 45.2,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "drizzile",
+    "evo2": "sobble"
   },
   "ivysaur": {
     "id": "ivysaur",
@@ -7128,7 +7421,8 @@
     "spe": 60,
     "weight": 13,
     "type1": "Grass",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "bulbasaur"
   },
   "jangmoo": {
     "id": "jangmoo",
@@ -7161,7 +7455,8 @@
     "spe": 60,
     "weight": 135,
     "type1": "Water",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "frillish"
   },
   "jigglypuff": {
     "id": "jigglypuff",
@@ -7178,7 +7473,8 @@
     "spe": 20,
     "weight": 5.5,
     "type1": "Normal",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "igglybuff"
   },
   "jirachi": {
     "id": "jirachi",
@@ -7208,7 +7504,8 @@
     "spd": 95,
     "spe": 130,
     "weight": 24.5,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "eevee"
   },
   "joltik": {
     "id": "joltik",
@@ -7242,7 +7539,9 @@
     "spe": 110,
     "weight": 3,
     "type1": "Grass",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "skiploom",
+    "evo2": "hoppip"
   },
   "jynx": {
     "id": "jynx",
@@ -7259,7 +7558,8 @@
     "spe": 95,
     "weight": 40.6,
     "type1": "Ice",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "smoochum"
   },
   "kabuto": {
     "id": "kabuto",
@@ -7293,7 +7593,8 @@
     "spe": 80,
     "weight": 40.5,
     "type1": "Rock",
-    "type2": "Water"
+    "type2": "Water",
+    "evo1": "kabuto"
   },
   "kadabra": {
     "id": "kadabra",
@@ -7309,7 +7610,8 @@
     "spd": 70,
     "spe": 105,
     "weight": 56.5,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "abra"
   },
   "kakuna": {
     "id": "kakuna",
@@ -7324,7 +7626,8 @@
     "spe": 35,
     "weight": 10,
     "type1": "Bug",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "weedle"
   },
   "kangaskhan": {
     "id": "kangaskhan",
@@ -7447,7 +7750,9 @@
     "spe": 85,
     "weight": 152,
     "type1": "Water",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "seadra",
+    "evo2": "horsea"
   },
   "kingler": {
     "id": "kingler",
@@ -7463,7 +7768,8 @@
     "spd": 50,
     "spe": 75,
     "weight": 60,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "krabby"
   },
   "kirlia": {
     "id": "kirlia",
@@ -7480,7 +7786,8 @@
     "spe": 50,
     "weight": 20.2,
     "type1": "Psychic",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "ralts"
   },
   "klang": {
     "id": "klang",
@@ -7496,7 +7803,8 @@
     "spd": 85,
     "spe": 50,
     "weight": 51,
-    "type1": "Steel"
+    "type1": "Steel",
+    "evo1": "klink"
   },
   "klefki": {
     "id": "klefki",
@@ -7544,7 +7852,9 @@
     "spd": 85,
     "spe": 90,
     "weight": 81,
-    "type1": "Steel"
+    "type1": "Steel",
+    "evo1": "klang",
+    "evo2": "klink"
   },
   "koffing": {
     "id": "koffing",
@@ -7591,7 +7901,9 @@
     "spe": 85,
     "weight": 78.2,
     "type1": "Dragon",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "hakamoo",
+    "evo2": "jangmoo"
   },
   "kommoototem": {
     "id": "kommoototem",
@@ -7606,7 +7918,9 @@
     "spe": 85,
     "weight": 207.5,
     "type1": "Dragon",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "hakamoo",
+    "evo2": "jangmoo"
   },
   "krabby": {
     "id": "krabby",
@@ -7652,7 +7966,8 @@
     "spd": 51,
     "spe": 65,
     "weight": 25.5,
-    "type1": "Bug"
+    "type1": "Bug",
+    "evo1": "kricketot"
   },
   "krokorok": {
     "id": "krokorok",
@@ -7669,7 +7984,8 @@
     "spe": 74,
     "weight": 33.4,
     "type1": "Ground",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "sandile"
   },
   "krookodile": {
     "id": "krookodile",
@@ -7686,7 +8002,9 @@
     "spe": 92,
     "weight": 96.3,
     "type1": "Ground",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "krokorok",
+    "evo2": "sandile"
   },
   "kubfu": {
     "id": "kubfu",
@@ -7790,7 +8108,8 @@
     "spe": 40,
     "weight": 120,
     "type1": "Steel",
-    "type2": "Rock"
+    "type2": "Rock",
+    "evo1": "aron"
   },
   "lampent": {
     "id": "lampent",
@@ -7807,7 +8126,8 @@
     "spe": 55,
     "weight": 13,
     "type1": "Ghost",
-    "type2": "Fire"
+    "type2": "Fire",
+    "evo1": "litwick"
   },
   "landorus": {
     "id": "landorus",
@@ -7855,7 +8175,8 @@
     "spe": 67,
     "weight": 22.5,
     "type1": "Water",
-    "type2": "Electric"
+    "type2": "Electric",
+    "evo1": "chinchou"
   },
   "lapras": {
     "id": "lapras",
@@ -7979,7 +8300,8 @@
     "spd": 65,
     "spe": 95,
     "weight": 25.5,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "eevee"
   },
   "leavanny": {
     "id": "leavanny",
@@ -7996,7 +8318,9 @@
     "spe": 92,
     "weight": 20.5,
     "type1": "Bug",
-    "type2": "Grass"
+    "type2": "Grass",
+    "evo1": "swadloon",
+    "evo2": "sewaddle"
   },
   "ledian": {
     "id": "ledian",
@@ -8013,7 +8337,8 @@
     "spe": 85,
     "weight": 35.6,
     "type1": "Bug",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "ledyba"
   },
   "ledyba": {
     "id": "ledyba",
@@ -8046,7 +8371,8 @@
     "spd": 95,
     "spe": 50,
     "weight": 140,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "lickitung"
   },
   "lickitung": {
     "id": "lickitung",
@@ -8078,7 +8404,8 @@
     "spd": 50,
     "spe": 106,
     "weight": 37.5,
-    "type1": "Dark"
+    "type1": "Dark",
+    "evo1": "purrloin"
   },
   "lileep": {
     "id": "lileep",
@@ -8110,7 +8437,8 @@
     "spd": 75,
     "spe": 90,
     "weight": 16.3,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "petilil"
   },
   "lillipup": {
     "id": "lillipup",
@@ -8142,7 +8470,8 @@
     "spd": 61,
     "spe": 100,
     "weight": 32.5,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "zigzagoon"
   },
   "linoonegalar": {
     "id": "linoonegalar",
@@ -8159,7 +8488,8 @@
     "spe": 100,
     "weight": 32.5,
     "type1": "Dark",
-    "type2": "Normal"
+    "type2": "Normal",
+    "evo1": "zigzagoongalar"
   },
   "litleo": {
     "id": "litleo",
@@ -8225,7 +8555,8 @@
     "spe": 50,
     "weight": 32.5,
     "type1": "Water",
-    "type2": "Grass"
+    "type2": "Grass",
+    "evo1": "lotad"
   },
   "lopunny": {
     "id": "lopunny",
@@ -8241,7 +8572,8 @@
     "spd": 96,
     "spe": 105,
     "weight": 33.3,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "buneary"
   },
   "lopunnymega": {
     "id": "lopunnymega",
@@ -8256,7 +8588,8 @@
     "spe": 135,
     "weight": 28.3,
     "type1": "Normal",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "buneary"
   },
   "lotad": {
     "id": "lotad",
@@ -8288,7 +8621,8 @@
     "spd": 43,
     "spe": 48,
     "weight": 40.5,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "whismur"
   },
   "lucario": {
     "id": "lucario",
@@ -8305,7 +8639,8 @@
     "spe": 90,
     "weight": 54,
     "type1": "Fighting",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "riolu"
   },
   "lucariomega": {
     "id": "lucariomega",
@@ -8320,7 +8655,8 @@
     "spe": 112,
     "weight": 57.5,
     "type1": "Fighting",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "riolu"
   },
   "ludicolo": {
     "id": "ludicolo",
@@ -8337,7 +8673,9 @@
     "spe": 70,
     "weight": 55,
     "type1": "Water",
-    "type2": "Grass"
+    "type2": "Grass",
+    "evo1": "lombre",
+    "evo2": "lotad"
   },
   "lugia": {
     "id": "lugia",
@@ -8369,7 +8707,8 @@
     "spd": 86,
     "spe": 91,
     "weight": 24,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "finneon"
   },
   "lunala": {
     "id": "lunala",
@@ -8384,7 +8723,9 @@
     "spe": 97,
     "weight": 120,
     "type1": "Psychic",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "cosmoem",
+    "evo2": "cosmog"
   },
   "lunatone": {
     "id": "lunatone",
@@ -8414,7 +8755,8 @@
     "spd": 90,
     "spe": 45,
     "weight": 18.5,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "fomantis"
   },
   "lurantistotem": {
     "id": "lurantistotem",
@@ -8428,7 +8770,8 @@
     "spd": 90,
     "spe": 45,
     "weight": 58,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "fomantis"
   },
   "luvdisc": {
     "id": "luvdisc",
@@ -8459,7 +8802,8 @@
     "spd": 49,
     "spe": 60,
     "weight": 30.5,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "shinx"
   },
   "luxray": {
     "id": "luxray",
@@ -8475,7 +8819,9 @@
     "spd": 79,
     "spe": 70,
     "weight": 42,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "luxio",
+    "evo2": "shinx"
   },
   "lycanroc": {
     "id": "lycanroc",
@@ -8491,7 +8837,8 @@
     "spd": 65,
     "spe": 112,
     "weight": 25,
-    "type1": "Rock"
+    "type1": "Rock",
+    "evo1": "rockruff"
   },
   "lycanrocdusk": {
     "id": "lycanrocdusk",
@@ -8505,7 +8852,8 @@
     "spd": 65,
     "spe": 110,
     "weight": 25,
-    "type1": "Rock"
+    "type1": "Rock",
+    "evo1": "rockruff"
   },
   "lycanrocmidnight": {
     "id": "lycanrocmidnight",
@@ -8521,7 +8869,8 @@
     "spd": 75,
     "spe": 82,
     "weight": 25,
-    "type1": "Rock"
+    "type1": "Rock",
+    "evo1": "rockruff"
   },
   "machamp": {
     "id": "machamp",
@@ -8537,7 +8886,9 @@
     "spd": 85,
     "spe": 55,
     "weight": 130,
-    "type1": "Fighting"
+    "type1": "Fighting",
+    "evo1": "machoke",
+    "evo2": "machop"
   },
   "machoke": {
     "id": "machoke",
@@ -8553,7 +8904,8 @@
     "spd": 60,
     "spe": 45,
     "weight": 70.5,
-    "type1": "Fighting"
+    "type1": "Fighting",
+    "evo1": "machop"
   },
   "machop": {
     "id": "machop",
@@ -8601,7 +8953,8 @@
     "spe": 30,
     "weight": 55,
     "type1": "Fire",
-    "type2": "Rock"
+    "type2": "Rock",
+    "evo1": "slugma"
   },
   "magearna": {
     "id": "magearna",
@@ -8661,7 +9014,8 @@
     "spd": 85,
     "spe": 93,
     "weight": 44.5,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "magby"
   },
   "magmortar": {
     "id": "magmortar",
@@ -8676,7 +9030,9 @@
     "spd": 95,
     "spe": 83,
     "weight": 68,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "magmar",
+    "evo2": "magby"
   },
   "magnemite": {
     "id": "magnemite",
@@ -8710,7 +9066,8 @@
     "spe": 70,
     "weight": 60,
     "type1": "Electric",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "magnemite"
   },
   "magnezone": {
     "id": "magnezone",
@@ -8727,7 +9084,9 @@
     "spe": 60,
     "weight": 180,
     "type1": "Electric",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "magneton",
+    "evo2": "magnemite"
   },
   "makuhita": {
     "id": "makuhita",
@@ -8760,7 +9119,8 @@
     "spe": 73,
     "weight": 47,
     "type1": "Dark",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "inkay"
   },
   "mamoswine": {
     "id": "mamoswine",
@@ -8777,7 +9137,9 @@
     "spe": 80,
     "weight": 291,
     "type1": "Ice",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "piloswine",
+    "evo2": "swinub"
   },
   "manaphy": {
     "id": "manaphy",
@@ -8808,7 +9170,8 @@
     "spe": 80,
     "weight": 39.5,
     "type1": "Dark",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "vullaby"
   },
   "manectric": {
     "id": "manectric",
@@ -8824,7 +9187,8 @@
     "spd": 60,
     "spe": 105,
     "weight": 40.2,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "electrike"
   },
   "manectricmega": {
     "id": "manectricmega",
@@ -8838,7 +9202,8 @@
     "spd": 80,
     "spe": 135,
     "weight": 44,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "electrike"
   },
   "mankey": {
     "id": "mankey",
@@ -8871,7 +9236,8 @@
     "spe": 70,
     "weight": 220,
     "type1": "Water",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "mantyke"
   },
   "mantyke": {
     "id": "mantyke",
@@ -8953,7 +9319,8 @@
     "spe": 40,
     "weight": 8.5,
     "type1": "Water",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "azurill"
   },
   "marowak": {
     "id": "marowak",
@@ -8969,7 +9336,8 @@
     "spd": 80,
     "spe": 45,
     "weight": 45,
-    "type1": "Ground"
+    "type1": "Ground",
+    "evo1": "cubone"
   },
   "marowakalola": {
     "id": "marowakalola",
@@ -8986,7 +9354,8 @@
     "spe": 45,
     "weight": 34,
     "type1": "Fire",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "cubone"
   },
   "marowakalolatotem": {
     "id": "marowakalolatotem",
@@ -9001,7 +9370,8 @@
     "spe": 45,
     "weight": 98,
     "type1": "Fire",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "cubone"
   },
   "marshadow": {
     "id": "marshadow",
@@ -9032,7 +9402,8 @@
     "spe": 50,
     "weight": 28,
     "type1": "Water",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "mudkip"
   },
   "masquerain": {
     "id": "masquerain",
@@ -9048,7 +9419,8 @@
     "spe": 80,
     "weight": 3.6,
     "type1": "Bug",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "surskit"
   },
   "mawile": {
     "id": "mawile",
@@ -9096,7 +9468,8 @@
     "spe": 80,
     "weight": 31.5,
     "type1": "Fighting",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "meditite"
   },
   "medichammega": {
     "id": "medichammega",
@@ -9111,7 +9484,8 @@
     "spe": 100,
     "weight": 31.5,
     "type1": "Fighting",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "meditite"
   },
   "meditite": {
     "id": "meditite",
@@ -9142,7 +9516,9 @@
     "spd": 100,
     "spe": 80,
     "weight": 100.5,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "bayleef",
+    "evo2": "chikorita"
   },
   "melmetal": {
     "id": "melmetal",
@@ -9156,7 +9532,8 @@
     "spd": 65,
     "spe": 34,
     "weight": 800,
-    "type1": "Steel"
+    "type1": "Steel",
+    "evo1": "meltan"
   },
   "meloetta": {
     "id": "meloetta",
@@ -9216,7 +9593,8 @@
     "spd": 81,
     "spe": 104,
     "weight": 8.5,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "espurr"
   },
   "meowsticf": {
     "id": "meowsticf",
@@ -9232,7 +9610,8 @@
     "spd": 81,
     "spe": 104,
     "weight": 8.5,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "espurr"
   },
   "meowth": {
     "id": "meowth",
@@ -9310,7 +9689,9 @@
     "spe": 70,
     "weight": 550,
     "type1": "Steel",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "metang",
+    "evo2": "beldum"
   },
   "metagrossmega": {
     "id": "metagrossmega",
@@ -9325,7 +9706,9 @@
     "spe": 110,
     "weight": 942.9,
     "type1": "Steel",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "metang",
+    "evo2": "beldum"
   },
   "metang": {
     "id": "metang",
@@ -9341,7 +9724,8 @@
     "spe": 50,
     "weight": 202.5,
     "type1": "Steel",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "beldum"
   },
   "metapod": {
     "id": "metapod",
@@ -9355,7 +9739,8 @@
     "spd": 25,
     "spe": 30,
     "weight": 9.9,
-    "type1": "Bug"
+    "type1": "Bug",
+    "evo1": "caterpie"
   },
   "mew": {
     "id": "mew",
@@ -9445,7 +9830,8 @@
     "spd": 60,
     "spe": 105,
     "weight": 35.5,
-    "type1": "Fighting"
+    "type1": "Fighting",
+    "evo1": "mienfoo"
   },
   "mightyena": {
     "id": "mightyena",
@@ -9461,7 +9847,8 @@
     "spd": 60,
     "spe": 70,
     "weight": 37,
-    "type1": "Dark"
+    "type1": "Dark",
+    "evo1": "poochyena"
   },
   "milcery": {
     "id": "milcery",
@@ -9492,7 +9879,8 @@
     "spd": 125,
     "spe": 81,
     "weight": 162,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "feebas"
   },
   "miltank": {
     "id": "miltank",
@@ -9674,7 +10062,8 @@
     "spd": 105,
     "spe": 105,
     "weight": 4.4,
-    "type1": "Ghost"
+    "type1": "Ghost",
+    "evo1": "misdreavus"
   },
   "moltres": {
     "id": "moltres",
@@ -9721,7 +10110,8 @@
     "spe": 81,
     "weight": 22,
     "type1": "Fire",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "chimchar"
   },
   "morelull": {
     "id": "morelull",
@@ -9755,7 +10145,8 @@
     "spe": 70,
     "weight": 12.5,
     "type1": "Dark",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "impidimp"
   },
   "morpeko": {
     "id": "morpeko",
@@ -9801,7 +10192,8 @@
     "spe": 66,
     "weight": 23.3,
     "type1": "Bug",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "burmy"
   },
   "mrmime": {
     "id": "mrmime",
@@ -9818,7 +10210,8 @@
     "spe": 90,
     "weight": 54.5,
     "type1": "Psychic",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "mimejr"
   },
   "mrmimegalar": {
     "id": "mrmimegalar",
@@ -9835,7 +10228,8 @@
     "spe": 100,
     "weight": 56.8,
     "type1": "Ice",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "mimejr"
   },
   "mrrime": {
     "id": "mrrime",
@@ -9852,7 +10246,9 @@
     "spe": 70,
     "weight": 58.2,
     "type1": "Ice",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "mrmimegalar",
+    "evo2": "mimejr"
   },
   "mudbray": {
     "id": "mudbray",
@@ -9899,7 +10295,8 @@
     "spd": 85,
     "spe": 35,
     "weight": 920,
-    "type1": "Ground"
+    "type1": "Ground",
+    "evo1": "mudbray"
   },
   "muk": {
     "id": "muk",
@@ -9915,7 +10312,8 @@
     "spd": 100,
     "spe": 50,
     "weight": 30,
-    "type1": "Poison"
+    "type1": "Poison",
+    "evo1": "grimer"
   },
   "mukalola": {
     "id": "mukalola",
@@ -9932,7 +10330,8 @@
     "spe": 50,
     "weight": 52,
     "type1": "Poison",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "grimeralola"
   },
   "munchlax": {
     "id": "munchlax",
@@ -9997,7 +10396,8 @@
     "spd": 95,
     "spe": 29,
     "weight": 60.5,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "munna"
   },
   "naganadel": {
     "id": "naganadel",
@@ -10012,7 +10412,8 @@
     "spe": 121,
     "weight": 150,
     "type1": "Poison",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "poipole"
   },
   "natu": {
     "id": "natu",
@@ -10121,7 +10522,9 @@
     "spe": 85,
     "weight": 62,
     "type1": "Poison",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "nidorino",
+    "evo2": "nidoranm"
   },
   "nidoqueen": {
     "id": "nidoqueen",
@@ -10138,7 +10541,9 @@
     "spe": 76,
     "weight": 60,
     "type1": "Poison",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "nidorina",
+    "evo2": "nidoranf"
   },
   "nidoranf": {
     "id": "nidoranf",
@@ -10186,7 +10591,8 @@
     "spd": 55,
     "spe": 56,
     "weight": 20,
-    "type1": "Poison"
+    "type1": "Poison",
+    "evo1": "nidoranf"
   },
   "nidorino": {
     "id": "nidorino",
@@ -10202,7 +10608,8 @@
     "spd": 55,
     "spe": 65,
     "weight": 19.5,
-    "type1": "Poison"
+    "type1": "Poison",
+    "evo1": "nidoranm"
   },
   "nihilego": {
     "id": "nihilego",
@@ -10248,7 +10655,8 @@
     "spd": 100,
     "spe": 100,
     "weight": 19.9,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "vulpix"
   },
   "ninetalesalola": {
     "id": "ninetalesalola",
@@ -10264,7 +10672,8 @@
     "spe": 109,
     "weight": 19.9,
     "type1": "Ice",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "vulpixalola"
   },
   "ninjask": {
     "id": "ninjask",
@@ -10280,7 +10689,8 @@
     "spe": 160,
     "weight": 12,
     "type1": "Bug",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "nincada"
   },
   "noctowl": {
     "id": "noctowl",
@@ -10297,7 +10707,8 @@
     "spe": 70,
     "weight": 40.8,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "hoothoot"
   },
   "noibat": {
     "id": "noibat",
@@ -10314,7 +10725,8 @@
     "spe": 55,
     "weight": 8,
     "type1": "Flying",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "noivern"
   },
   "noivern": {
     "id": "noivern",
@@ -10381,7 +10793,8 @@
     "spe": 60,
     "weight": 28,
     "type1": "Grass",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "seedot"
   },
   "obstagoon": {
     "id": "obstagoon",
@@ -10398,7 +10811,9 @@
     "spe": 95,
     "weight": 46,
     "type1": "Dark",
-    "type2": "Normal"
+    "type2": "Normal",
+    "evo1": "linoonegalar",
+    "evo2": "zigzagoongalar"
   },
   "octillery": {
     "id": "octillery",
@@ -10414,7 +10829,8 @@
     "spd": 75,
     "spe": 45,
     "weight": 28.5,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "remoraid"
   },
   "oddish": {
     "id": "oddish",
@@ -10464,7 +10880,8 @@
     "spe": 55,
     "weight": 35,
     "type1": "Rock",
-    "type2": "Water"
+    "type2": "Water",
+    "evo1": "omanyte"
   },
   "onix": {
     "id": "onix",
@@ -10515,7 +10932,9 @@
     "spe": 90,
     "weight": 40.8,
     "type1": "Bug",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "dottler",
+    "evo2": "blipbug"
   },
   "oricorio": {
     "id": "oricorio",
@@ -10638,7 +11057,8 @@
     "spe": 35,
     "weight": 250,
     "type1": "Ghost",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "sandygast"
   },
   "palpitoad": {
     "id": "palpitoad",
@@ -10655,7 +11075,8 @@
     "spe": 69,
     "weight": 17,
     "type1": "Water",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "tympole"
   },
   "pancham": {
     "id": "pancham",
@@ -10688,7 +11109,8 @@
     "spe": 58,
     "weight": 136,
     "type1": "Fighting",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "pancham"
   },
   "panpour": {
     "id": "panpour",
@@ -10767,7 +11189,8 @@
     "spe": 30,
     "weight": 29.5,
     "type1": "Bug",
-    "type2": "Grass"
+    "type2": "Grass",
+    "evo1": "paras"
   },
   "passimian": {
     "id": "passimian",
@@ -10832,7 +11255,8 @@
     "spe": 65,
     "weight": 28,
     "type1": "Water",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "wingull"
   },
   "perrserker": {
     "id": "perrserker",
@@ -10848,7 +11272,8 @@
     "spd": 60,
     "spe": 50,
     "weight": 28,
-    "type1": "Steel"
+    "type1": "Steel",
+    "evo1": "meowthgalar"
   },
   "persian": {
     "id": "persian",
@@ -10864,7 +11289,8 @@
     "spd": 65,
     "spe": 115,
     "weight": 32,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "meowth"
   },
   "persianalola": {
     "id": "persianalola",
@@ -10880,7 +11306,8 @@
     "spd": 65,
     "spe": 115,
     "weight": 33,
-    "type1": "Dark"
+    "type1": "Dark",
+    "evo1": "meowthalola"
   },
   "petilil": {
     "id": "petilil",
@@ -11003,7 +11430,9 @@
     "spe": 101,
     "weight": 39.5,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "pidgeotto",
+    "evo2": "pidgey"
   },
   "pidgeotmega": {
     "id": "pidgeotmega",
@@ -11018,7 +11447,9 @@
     "spe": 121,
     "weight": 50.5,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "pidgeotto",
+    "evo2": "pidgey"
   },
   "pidgeotto": {
     "id": "pidgeotto",
@@ -11035,7 +11466,8 @@
     "spe": 71,
     "weight": 30,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "pidgey"
   },
   "pidgey": {
     "id": "pidgey",
@@ -11085,7 +11517,8 @@
     "spe": 55,
     "weight": 55.5,
     "type1": "Fire",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "tepig"
   },
   "pikachu": {
     "id": "pikachu",
@@ -11100,7 +11533,8 @@
     "spd": 50,
     "spe": 90,
     "weight": 6,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "pichu"
   },
   "pikipek": {
     "id": "pikipek",
@@ -11134,7 +11568,8 @@
     "spe": 50,
     "weight": 55.8,
     "type1": "Ice",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "swinub"
   },
   "pincurchin": {
     "id": "pincurchin",
@@ -11255,7 +11690,9 @@
     "spd": 100,
     "spe": 70,
     "weight": 33.9,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "poliwhirl",
+    "evo2": "poliwag"
   },
   "poliwag": {
     "id": "poliwag",
@@ -11287,7 +11724,8 @@
     "spd": 50,
     "spe": 90,
     "weight": 20,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "poliwag"
   },
   "poliwrath": {
     "id": "poliwrath",
@@ -11304,7 +11742,9 @@
     "spe": 70,
     "weight": 54,
     "type1": "Water",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "poliwhirl",
+    "evo2": "poliwag"
   },
   "polteageist": {
     "id": "polteageist",
@@ -11319,7 +11759,8 @@
     "spd": 114,
     "spe": 70,
     "weight": 0.4,
-    "type1": "Ghost"
+    "type1": "Ghost",
+    "evo1": "sinistea"
   },
   "polteageistantique": {
     "id": "polteageistantique",
@@ -11334,7 +11775,8 @@
     "spd": 114,
     "spe": 70,
     "weight": 0.4,
-    "type1": "Ghost"
+    "type1": "Ghost",
+    "evo1": "sinistea"
   },
   "ponyta": {
     "id": "ponyta",
@@ -11429,7 +11871,8 @@
     "spd": 95,
     "spe": 60,
     "weight": 32.5,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "porygon"
   },
   "porygonz": {
     "id": "porygonz",
@@ -11445,7 +11888,9 @@
     "spd": 75,
     "spe": 90,
     "weight": 34,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "porygon2",
+    "evo2": "porygon"
   },
   "primarina": {
     "id": "primarina",
@@ -11461,7 +11906,9 @@
     "spe": 60,
     "weight": 44,
     "type1": "Water",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "brionne",
+    "evo2": "popplio"
   },
   "primeape": {
     "id": "primeape",
@@ -11477,7 +11924,8 @@
     "spd": 70,
     "spe": 95,
     "weight": 32,
-    "type1": "Fighting"
+    "type1": "Fighting",
+    "evo1": "mankey"
   },
   "prinplup": {
     "id": "prinplup",
@@ -11492,7 +11940,8 @@
     "spd": 76,
     "spe": 50,
     "weight": 23,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "piplup"
   },
   "probopass": {
     "id": "probopass",
@@ -11509,7 +11958,8 @@
     "spe": 40,
     "weight": 340,
     "type1": "Rock",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "nosepass"
   },
   "psyduck": {
     "id": "psyduck",
@@ -11608,7 +12058,8 @@
     "spe": 51,
     "weight": 152,
     "type1": "Rock",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "larvitar"
   },
   "purrloin": {
     "id": "purrloin",
@@ -11640,7 +12091,8 @@
     "spd": 59,
     "spe": 112,
     "weight": 43.8,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "glameow"
   },
   "pyroar": {
     "id": "pyroar",
@@ -11657,7 +12109,8 @@
     "spe": 106,
     "weight": 81.5,
     "type1": "Fire",
-    "type2": "Normal"
+    "type2": "Normal",
+    "evo1": "litleo"
   },
   "pyukumuku": {
     "id": "pyukumuku",
@@ -11689,7 +12142,8 @@
     "spe": 35,
     "weight": 75,
     "type1": "Water",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "wooper"
   },
   "quilava": {
     "id": "quilava",
@@ -11704,7 +12158,8 @@
     "spd": 65,
     "spe": 80,
     "weight": 19,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "cyndaquil"
   },
   "quilladin": {
     "id": "quilladin",
@@ -11719,7 +12174,8 @@
     "spd": 58,
     "spe": 57,
     "weight": 29,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "chespin"
   },
   "qwilfish": {
     "id": "qwilfish",
@@ -11751,7 +12207,8 @@
     "spd": 60,
     "spe": 94,
     "weight": 9,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "scorbunny"
   },
   "raichu": {
     "id": "raichu",
@@ -11766,7 +12223,9 @@
     "spd": 80,
     "spe": 110,
     "weight": 30,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "pikachu",
+    "evo2": "pichu"
   },
   "raichualola": {
     "id": "raichualola",
@@ -11781,7 +12240,9 @@
     "spe": 110,
     "weight": 21,
     "type1": "Electric",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "pikachu",
+    "evo2": "pichu"
   },
   "raikou": {
     "id": "raikou",
@@ -11828,7 +12289,8 @@
     "spd": 50,
     "spe": 58,
     "weight": 102.5,
-    "type1": "Rock"
+    "type1": "Rock",
+    "evo1": "cranidos"
   },
   "rapidash": {
     "id": "rapidash",
@@ -11844,7 +12306,8 @@
     "spd": 80,
     "spe": 105,
     "weight": 95,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "ponyta"
   },
   "rapidashgalar": {
     "id": "rapidashgalar",
@@ -11861,7 +12324,8 @@
     "spe": 105,
     "weight": 80,
     "type1": "Psychic",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "ponytagalar"
   },
   "raticate": {
     "id": "raticate",
@@ -11877,7 +12341,8 @@
     "spd": 70,
     "spe": 97,
     "weight": 18.5,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "rattata"
   },
   "raticatealola": {
     "id": "raticatealola",
@@ -11894,7 +12359,8 @@
     "spe": 77,
     "weight": 25.5,
     "type1": "Dark",
-    "type2": "Normal"
+    "type2": "Normal",
+    "evo1": "rattataalola"
   },
   "raticatealolatotem": {
     "id": "raticatealolatotem",
@@ -11909,7 +12375,8 @@
     "spe": 77,
     "weight": 105,
     "type1": "Dark",
-    "type2": "Normal"
+    "type2": "Normal",
+    "evo1": "rattataalola"
   },
   "rattata": {
     "id": "rattata",
@@ -12123,7 +12590,9 @@
     "spd": 85,
     "spe": 30,
     "weight": 20.1,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "duosion",
+    "evo2": "solosis"
   },
   "rhydon": {
     "id": "rhydon",
@@ -12140,7 +12609,8 @@
     "spe": 40,
     "weight": 120,
     "type1": "Ground",
-    "type2": "Rock"
+    "type2": "Rock",
+    "evo1": "rhyhorn"
   },
   "rhyhorn": {
     "id": "rhyhorn",
@@ -12174,7 +12644,9 @@
     "spe": 40,
     "weight": 282.8,
     "type1": "Ground",
-    "type2": "Rock"
+    "type2": "Rock",
+    "evo1": "rhydon",
+    "evo2": "rhyhorn"
   },
   "ribombee": {
     "id": "ribombee",
@@ -12191,7 +12663,8 @@
     "spe": 124,
     "weight": 0.5,
     "type1": "Bug",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "cutiefly"
   },
   "ribombeetotem": {
     "id": "ribombeetotem",
@@ -12206,7 +12679,8 @@
     "spe": 124,
     "weight": 2,
     "type1": "Bug",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "cutiefly"
   },
   "rillaboom": {
     "id": "rillaboom",
@@ -12221,7 +12695,9 @@
     "spd": 70,
     "spe": 85,
     "weight": 90,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "thwackey",
+    "evo2": "grookey"
   },
   "riolu": {
     "id": "riolu",
@@ -12318,7 +12794,8 @@
     "spe": 65,
     "weight": 2,
     "type1": "Grass",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "budew"
   },
   "roserade": {
     "id": "roserade",
@@ -12335,7 +12812,9 @@
     "spe": 90,
     "weight": 14.5,
     "type1": "Grass",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "roserade",
+    "evo2": "budew"
   },
   "rotom": {
     "id": "rotom",
@@ -12473,7 +12952,8 @@
     "spe": 30,
     "weight": 66.6,
     "type1": "Ground",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "yamaskgalar"
   },
   "sableye": {
     "id": "sableye",
@@ -12521,7 +13001,9 @@
     "spe": 100,
     "weight": 102.6,
     "type1": "Dragon",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "shelgon",
+    "evo2": "bagon"
   },
   "salamencemega": {
     "id": "salamencemega",
@@ -12536,7 +13018,9 @@
     "spe": 120,
     "weight": 112.6,
     "type1": "Dragon",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "shelgon",
+    "evo2": "bagon"
   },
   "salandit": {
     "id": "salandit",
@@ -12568,7 +13052,8 @@
     "spe": 117,
     "weight": 22.2,
     "type1": "Poison",
-    "type2": "Fire"
+    "type2": "Fire",
+    "evo1": "salandit"
   },
   "salazzletotem": {
     "id": "salazzletotem",
@@ -12583,7 +13068,8 @@
     "spe": 117,
     "weight": 81,
     "type1": "Poison",
-    "type2": "Fire"
+    "type2": "Fire",
+    "evo1": "salandit"
   },
   "samurott": {
     "id": "samurott",
@@ -12598,7 +13084,9 @@
     "spd": 70,
     "spe": 70,
     "weight": 94.6,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "dewott",
+    "evo2": "oshawott"
   },
   "sandaconda": {
     "id": "sandaconda",
@@ -12614,7 +13102,8 @@
     "spd": 70,
     "spe": 71,
     "weight": 65.5,
-    "type1": "Ground"
+    "type1": "Ground",
+    "evo1": "silicobra"
   },
   "sandile": {
     "id": "sandile",
@@ -12677,7 +13166,8 @@
     "spd": 55,
     "spe": 65,
     "weight": 29.5,
-    "type1": "Ground"
+    "type1": "Ground",
+    "evo1": "sandshrew"
   },
   "sandslashalola": {
     "id": "sandslashalola",
@@ -12693,7 +13183,8 @@
     "spe": 65,
     "weight": 55,
     "type1": "Ice",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "sandshrewalola"
   },
   "sandygast": {
     "id": "sandygast",
@@ -12742,7 +13233,8 @@
     "spe": 95,
     "weight": 92.5,
     "type1": "Normal",
-    "type2": "Grass"
+    "type2": "Grass",
+    "evo1": "deerling"
   },
   "scatterbug": {
     "id": "scatterbug",
@@ -12773,7 +13265,9 @@
     "spd": 85,
     "spe": 120,
     "weight": 52.2,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "grovyle",
+    "evo2": "treecko"
   },
   "sceptilemega": {
     "id": "sceptilemega",
@@ -12788,7 +13282,9 @@
     "spe": 145,
     "weight": 55.2,
     "type1": "Grass",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "grovyle",
+    "evo2": "treecko"
   },
   "scizor": {
     "id": "scizor",
@@ -12805,7 +13301,8 @@
     "spe": 65,
     "weight": 118,
     "type1": "Bug",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "scyther"
   },
   "scizormega": {
     "id": "scizormega",
@@ -12820,7 +13317,8 @@
     "spe": 75,
     "weight": 125,
     "type1": "Bug",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "scyther"
   },
   "scolipede": {
     "id": "scolipede",
@@ -12837,7 +13335,9 @@
     "spe": 112,
     "weight": 200.5,
     "type1": "Bug",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "whirlipede",
+    "evo2": "venipede"
   },
   "scorbunny": {
     "id": "scorbunny",
@@ -12869,7 +13369,8 @@
     "spe": 58,
     "weight": 30,
     "type1": "Dark",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "scraggy"
   },
   "scraggy": {
     "id": "scraggy",
@@ -12919,7 +13420,8 @@
     "spd": 45,
     "spe": 85,
     "weight": 25,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "horsea"
   },
   "seaking": {
     "id": "seaking",
@@ -12935,7 +13437,8 @@
     "spd": 80,
     "spe": 68,
     "weight": 39,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "goldeen"
   },
   "sealeo": {
     "id": "sealeo",
@@ -12952,7 +13455,8 @@
     "spe": 45,
     "weight": 87.6,
     "type1": "Ice",
-    "type2": "Water"
+    "type2": "Water",
+    "evo1": "spheal"
   },
   "seedot": {
     "id": "seedot",
@@ -13001,7 +13505,9 @@
     "spe": 74,
     "weight": 62,
     "type1": "Water",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "palpitoad",
+    "evo2": "tympole"
   },
   "sentret": {
     "id": "sentret",
@@ -13032,7 +13538,9 @@
     "spd": 95,
     "spe": 113,
     "weight": 63,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "servine",
+    "evo2": "snivy"
   },
   "servine": {
     "id": "servine",
@@ -13047,7 +13555,8 @@
     "spd": 75,
     "spe": 83,
     "weight": 16,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "snivy"
   },
   "seviper": {
     "id": "seviper",
@@ -13095,7 +13604,8 @@
     "spe": 95,
     "weight": 88.8,
     "type1": "Water",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "carvanha"
   },
   "sharpedomega": {
     "id": "sharpedomega",
@@ -13110,7 +13620,8 @@
     "spe": 105,
     "weight": 130.3,
     "type1": "Water",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "carvanha"
   },
   "shaymin": {
     "id": "shaymin",
@@ -13154,7 +13665,8 @@
     "spe": 40,
     "weight": 1.2,
     "type1": "Bug",
-    "type2": "Ghost"
+    "type2": "Ghost",
+    "evo1": "nincada"
   },
   "shelgon": {
     "id": "shelgon",
@@ -13169,7 +13681,8 @@
     "spd": 50,
     "spe": 50,
     "weight": 110.5,
-    "type1": "Dragon"
+    "type1": "Dragon",
+    "evo1": "bagon"
   },
   "shellder": {
     "id": "shellder",
@@ -13250,7 +13763,9 @@
     "spe": 80,
     "weight": 59.6,
     "type1": "Grass",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "nuzleaf",
+    "evo2": "seedot"
   },
   "shiinotic": {
     "id": "shiinotic",
@@ -13267,7 +13782,8 @@
     "spe": 30,
     "weight": 11.5,
     "type1": "Grass",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "morelull"
   },
   "shinx": {
     "id": "shinx",
@@ -13363,7 +13879,8 @@
     "spd": 25,
     "spe": 15,
     "weight": 10,
-    "type1": "Bug"
+    "type1": "Bug",
+    "evo1": "wurmple"
   },
   "silicobra": {
     "id": "silicobra",
@@ -13646,7 +14163,8 @@
     "spd": 63,
     "spe": 101,
     "weight": 29,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "panpour"
   },
   "simisage": {
     "id": "simisage",
@@ -13661,7 +14179,8 @@
     "spd": 63,
     "spe": 101,
     "weight": 30.5,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "pansage"
   },
   "simisear": {
     "id": "simisear",
@@ -13676,7 +14195,8 @@
     "spd": 63,
     "spe": 101,
     "weight": 28,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "pansear"
   },
   "sinistea": {
     "id": "sinistea",
@@ -13721,7 +14241,8 @@
     "spd": 82,
     "spe": 65,
     "weight": 117,
-    "type1": "Fighting"
+    "type1": "Fighting",
+    "evo1": "farfetchdgalar"
   },
   "sizzlipede": {
     "id": "sizzlipede",
@@ -13787,7 +14308,8 @@
     "spe": 80,
     "weight": 1,
     "type1": "Grass",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "hoppip"
   },
   "skitty": {
     "id": "skitty",
@@ -13854,7 +14376,8 @@
     "spe": 84,
     "weight": 38,
     "type1": "Poison",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "stunky"
   },
   "skwovet": {
     "id": "skwovet",
@@ -13883,7 +14406,9 @@
     "spd": 65,
     "spe": 100,
     "weight": 130.5,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "vigoroth",
+    "evo2": "slakoth"
   },
   "slakoth": {
     "id": "slakoth",
@@ -13913,7 +14438,8 @@
     "spd": 113,
     "spe": 60,
     "weight": 17.5,
-    "type1": "Dragon"
+    "type1": "Dragon",
+    "evo1": "goomy"
   },
   "slowbro": {
     "id": "slowbro",
@@ -13930,7 +14456,8 @@
     "spe": 30,
     "weight": 78.5,
     "type1": "Water",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "slowpoke"
   },
   "slowbrogalar": {
     "id": "slowbrogalar",
@@ -13947,7 +14474,8 @@
     "spe": 30,
     "weight": 70.5,
     "type1": "Poison",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "slowpokegalar"
   },
   "slowbromega": {
     "id": "slowbromega",
@@ -13962,7 +14490,9 @@
     "spe": 30,
     "weight": 120,
     "type1": "Water",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "slowpoke",
+    "evo2": "slowpokegalar"
   },
   "slowking": {
     "id": "slowking",
@@ -13979,7 +14509,8 @@
     "spe": 30,
     "weight": 79.5,
     "type1": "Water",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "slowpoke"
   },
   "slowkinggalar": {
     "id": "slowkinggalar",
@@ -13996,7 +14527,8 @@
     "spe": 30,
     "weight": 79.5,
     "type1": "Poison",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "slowpokegalar"
   },
   "slowpoke": {
     "id": "slowpoke",
@@ -14060,7 +14592,8 @@
     "spd": 75,
     "spe": 72,
     "weight": 5,
-    "type1": "Fairy"
+    "type1": "Fairy",
+    "evo1": "swirlix"
   },
   "smeargle": {
     "id": "smeargle",
@@ -14157,7 +14690,8 @@
     "spd": 110,
     "spe": 30,
     "weight": 460,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "munchlax"
   },
   "snorunt": {
     "id": "snorunt",
@@ -14235,7 +14769,9 @@
     "spe": 97,
     "weight": 230,
     "type1": "Psychic",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "cosmoem",
+    "evo2": "cosmog"
   },
   "solosis": {
     "id": "solosis",
@@ -14311,7 +14847,8 @@
     "spd": 30,
     "spe": 29,
     "weight": 8.4,
-    "type1": "Bug"
+    "type1": "Bug",
+    "evo1": "scatterbug"
   },
   "spheal": {
     "id": "spheal",
@@ -14470,7 +15007,9 @@
     "spe": 100,
     "weight": 24.9,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "staravia",
+    "evo2": "starly"
   },
   "staravia": {
     "id": "staravia",
@@ -14486,7 +15025,8 @@
     "spe": 80,
     "weight": 15.5,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "starly"
   },
   "starly": {
     "id": "starly",
@@ -14519,7 +15059,8 @@
     "spe": 115,
     "weight": 80,
     "type1": "Water",
-    "type2": "Psychic"
+    "type2": "Psychic",
+    "evo1": "staryu"
   },
   "staryu": {
     "id": "staryu",
@@ -14552,7 +15093,8 @@
     "spe": 30,
     "weight": 400,
     "type1": "Steel",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "onix"
   },
   "steelixmega": {
     "id": "steelixmega",
@@ -14567,7 +15109,8 @@
     "spe": 30,
     "weight": 740,
     "type1": "Steel",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "onix"
   },
   "steenee": {
     "id": "steenee",
@@ -14583,7 +15126,8 @@
     "spd": 48,
     "spe": 62,
     "weight": 8.2,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "bounsweet"
   },
   "stonjourner": {
     "id": "stonjourner",
@@ -14613,7 +15157,9 @@
     "spd": 90,
     "spe": 80,
     "weight": 61,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "herdier",
+    "evo2": "lillipup"
   },
   "stufful": {
     "id": "stufful",
@@ -14695,7 +15241,8 @@
     "spd": 65,
     "spe": 30,
     "weight": 38,
-    "type1": "Rock"
+    "type1": "Rock",
+    "evo1": "bonsly"
   },
   "suicune": {
     "id": "suicune",
@@ -14726,7 +15273,8 @@
     "spd": 85,
     "spe": 30,
     "weight": 8.5,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "sunkern"
   },
   "sunkern": {
     "id": "sunkern",
@@ -14791,7 +15339,8 @@
     "spe": 42,
     "weight": 7.3,
     "type1": "Bug",
-    "type2": "Grass"
+    "type2": "Grass",
+    "evo1": "sewaddle"
   },
   "swalot": {
     "id": "swalot",
@@ -14807,7 +15356,8 @@
     "spd": 83,
     "spe": 55,
     "weight": 80,
-    "type1": "Poison"
+    "type1": "Poison",
+    "evo1": "gulpin"
   },
   "swampert": {
     "id": "swampert",
@@ -14823,7 +15373,9 @@
     "spe": 60,
     "weight": 81.9,
     "type1": "Water",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "marshtomp",
+    "evo2": "mudkip"
   },
   "swampertmega": {
     "id": "swampertmega",
@@ -14838,7 +15390,9 @@
     "spe": 70,
     "weight": 102,
     "type1": "Water",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "marshtomp",
+    "evo2": "mudkip"
   },
   "swanna": {
     "id": "swanna",
@@ -14855,7 +15409,8 @@
     "spe": 98,
     "weight": 24.2,
     "type1": "Water",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "ducklett"
   },
   "swellow": {
     "id": "swellow",
@@ -14871,7 +15426,8 @@
     "spe": 125,
     "weight": 19.8,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "taillow"
   },
   "swinub": {
     "id": "swinub",
@@ -14920,7 +15476,8 @@
     "spe": 114,
     "weight": 10.5,
     "type1": "Psychic",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "woobat"
   },
   "sylveon": {
     "id": "sylveon",
@@ -14935,7 +15492,8 @@
     "spd": 130,
     "spe": 60,
     "weight": 23.5,
-    "type1": "Fairy"
+    "type1": "Fairy",
+    "evo1": "eevee"
   },
   "taillow": {
     "id": "taillow",
@@ -14967,7 +15525,9 @@
     "spe": 126,
     "weight": 24.5,
     "type1": "Fire",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "fletchinder",
+    "evo2": "fletchling"
   },
   "tangela": {
     "id": "tangela",
@@ -14999,7 +15559,8 @@
     "spd": 50,
     "spe": 50,
     "weight": 128.6,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "tangela"
   },
   "tapubulu": {
     "id": "tapubulu",
@@ -15129,7 +15690,8 @@
     "spe": 100,
     "weight": 55,
     "type1": "Water",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "tentacool"
   },
   "tepig": {
     "id": "tepig",
@@ -15175,7 +15737,8 @@
     "spd": 92,
     "spe": 90,
     "weight": 19.9,
-    "type1": "Dark"
+    "type1": "Dark",
+    "evo1": "nickit"
   },
   "throh": {
     "id": "throh",
@@ -15237,7 +15800,8 @@
     "spd": 60,
     "spe": 80,
     "weight": 14,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "grookey"
   },
   "timburr": {
     "id": "timburr",
@@ -15319,7 +15883,9 @@
     "spe": 80,
     "weight": 38,
     "type1": "Fairy",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "togetic",
+    "evo2": "togepi"
   },
   "togepi": {
     "id": "togepi",
@@ -15352,7 +15918,8 @@
     "spe": 40,
     "weight": 3.2,
     "type1": "Fairy",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "togepi"
   },
   "torchic": {
     "id": "torchic",
@@ -15427,7 +15994,8 @@
     "spd": 50,
     "spe": 90,
     "weight": 25,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "litten"
   },
   "torterra": {
     "id": "torterra",
@@ -15443,7 +16011,9 @@
     "spe": 56,
     "weight": 310,
     "type1": "Grass",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "grotle",
+    "evo2": "turtwig"
   },
   "totodile": {
     "id": "totodile",
@@ -15475,7 +16045,9 @@
     "spe": 60,
     "weight": 26,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "trumbeak",
+    "evo2": "pikipek"
   },
   "toxapex": {
     "id": "toxapex",
@@ -15492,7 +16064,8 @@
     "spe": 35,
     "weight": 14.5,
     "type1": "Poison",
-    "type2": "Water"
+    "type2": "Water",
+    "evo1": "mareanie"
   },
   "toxel": {
     "id": "toxel",
@@ -15526,7 +16099,8 @@
     "spe": 85,
     "weight": 44.4,
     "type1": "Poison",
-    "type2": "Fighting"
+    "type2": "Fighting",
+    "evo1": "croagunk"
   },
   "toxtricity": {
     "id": "toxtricity",
@@ -15543,7 +16117,8 @@
     "spe": 75,
     "weight": 40,
     "type1": "Electric",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "toxel"
   },
   "toxtricitylowkey": {
     "id": "toxtricitylowkey",
@@ -15560,7 +16135,8 @@
     "spe": 75,
     "weight": 40,
     "type1": "Electric",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "toxel"
   },
   "tranquill": {
     "id": "tranquill",
@@ -15577,7 +16153,8 @@
     "spe": 65,
     "weight": 15,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "pidove"
   },
   "trapinch": {
     "id": "trapinch",
@@ -15625,7 +16202,8 @@
     "spe": 56,
     "weight": 71,
     "type1": "Ghost",
-    "type2": "Grass"
+    "type2": "Grass",
+    "evo1": "phantump"
   },
   "tropius": {
     "id": "tropius",
@@ -15675,7 +16253,8 @@
     "spe": 75,
     "weight": 14.8,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "pikipek"
   },
   "tsareena": {
     "id": "tsareena",
@@ -15691,7 +16270,9 @@
     "spd": 98,
     "spe": 72,
     "weight": 21.4,
-    "type1": "Grass"
+    "type1": "Grass",
+    "evo1": "steenee",
+    "evo2": "bounsweet"
   },
   "turtonator": {
     "id": "turtonator",
@@ -15780,7 +16361,9 @@
     "spd": 85,
     "spe": 100,
     "weight": 79.5,
-    "type1": "Fire"
+    "type1": "Fire",
+    "evo1": "quilava",
+    "evo2": "cyndaquil"
   },
   "tyranitar": {
     "id": "tyranitar",
@@ -15796,7 +16379,9 @@
     "spe": 61,
     "weight": 202,
     "type1": "Rock",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "pupitar",
+    "evo2": "larvitar"
   },
   "tyranitarmega": {
     "id": "tyranitarmega",
@@ -15811,7 +16396,9 @@
     "spe": 71,
     "weight": 255,
     "type1": "Rock",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "pupitar",
+    "evo2": "larvitar"
   },
   "tyrantrum": {
     "id": "tyrantrum",
@@ -15827,7 +16414,8 @@
     "spe": 71,
     "weight": 270,
     "type1": "Rock",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "tyrunt"
   },
   "tyrogue": {
     "id": "tyrogue",
@@ -15874,7 +16462,8 @@
     "spd": 130,
     "spe": 65,
     "weight": 27,
-    "type1": "Dark"
+    "type1": "Dark",
+    "evo1": "eevee"
   },
   "unfezant": {
     "id": "unfezant",
@@ -15891,7 +16480,9 @@
     "spe": 93,
     "weight": 29,
     "type1": "Normal",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "tranquill",
+    "evo2": "pidove"
   },
   "unown": {
     "id": "unown",
@@ -15921,7 +16512,8 @@
     "spd": 75,
     "spe": 55,
     "weight": 125.8,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "teddiursa"
   },
   "urshifu": {
     "id": "urshifu",
@@ -15936,7 +16528,8 @@
     "spe": 97,
     "weight": 105,
     "type1": "Fighting",
-    "type2": "Dark"
+    "type2": "Dark",
+    "evo1": "kubfu"
   },
   "urshifurapidstrike": {
     "id": "urshifurapidstrike",
@@ -15951,7 +16544,8 @@
     "spe": 97,
     "weight": 105,
     "type1": "Fighting",
-    "type2": "Water"
+    "type2": "Water",
+    "evo1": "kubfu"
   },
   "uxie": {
     "id": "uxie",
@@ -15981,7 +16575,8 @@
     "spd": 75,
     "spe": 59,
     "weight": 41,
-    "type1": "Ice"
+    "type1": "Ice",
+    "evo1": "vanillite"
   },
   "vanillite": {
     "id": "vanillite",
@@ -16013,7 +16608,9 @@
     "spd": 95,
     "spe": 79,
     "weight": 57.5,
-    "type1": "Ice"
+    "type1": "Ice",
+    "evo1": "vanillish",
+    "evo2": "vanillite"
   },
   "vaporeon": {
     "id": "vaporeon",
@@ -16028,7 +16625,8 @@
     "spd": 95,
     "spe": 65,
     "weight": 29,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "eevee"
   },
   "venipede": {
     "id": "venipede",
@@ -16062,7 +16660,8 @@
     "spe": 90,
     "weight": 12.5,
     "type1": "Bug",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "venonat"
   },
   "venonat": {
     "id": "venonat",
@@ -16095,7 +16694,9 @@
     "spe": 80,
     "weight": 100,
     "type1": "Grass",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "ivysaur",
+    "evo2": "bulbasaur"
   },
   "venusaurmega": {
     "id": "venusaurmega",
@@ -16110,7 +16711,9 @@
     "spe": 80,
     "weight": 155.5,
     "type1": "Grass",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "ivysaur",
+    "evo2": "bulbasaur"
   },
   "vespiquen": {
     "id": "vespiquen",
@@ -16126,7 +16729,8 @@
     "spe": 40,
     "weight": 38.5,
     "type1": "Bug",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "combee"
   },
   "vibrava": {
     "id": "vibrava",
@@ -16141,7 +16745,8 @@
     "spe": 70,
     "weight": 15.3,
     "type1": "Ground",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "trapinch"
   },
   "victini": {
     "id": "victini",
@@ -16172,7 +16777,9 @@
     "spe": 70,
     "weight": 15.5,
     "type1": "Grass",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "weepinbell",
+    "evo2": "bellsprout"
   },
   "vigoroth": {
     "id": "vigoroth",
@@ -16186,7 +16793,8 @@
     "spd": 55,
     "spe": 90,
     "weight": 46.5,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "slakoth"
   },
   "vikavolt": {
     "id": "vikavolt",
@@ -16201,7 +16809,9 @@
     "spe": 43,
     "weight": 45,
     "type1": "Bug",
-    "type2": "Electric"
+    "type2": "Electric",
+    "evo1": "charjabug",
+    "evo2": "grubbin"
   },
   "vikavolttotem": {
     "id": "vikavolttotem",
@@ -16216,7 +16826,9 @@
     "spe": 43,
     "weight": 147.5,
     "type1": "Bug",
-    "type2": "Electric"
+    "type2": "Electric",
+    "evo1": "charjabug",
+    "evo2": "grubbin"
   },
   "vileplume": {
     "id": "vileplume",
@@ -16232,7 +16844,9 @@
     "spe": 50,
     "weight": 18.6,
     "type1": "Grass",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "gloom",
+    "evo2": "oddish"
   },
   "virizion": {
     "id": "virizion",
@@ -16264,7 +16878,9 @@
     "spe": 89,
     "weight": 17,
     "type1": "Bug",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "spewpa",
+    "evo2": "scatterbug"
   },
   "vivillonfancy": {
     "id": "vivillonfancy",
@@ -16280,7 +16896,9 @@
     "spe": 89,
     "weight": 17,
     "type1": "Bug",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "spewpa",
+    "evo2": "scatterbug"
   },
   "vivillonpokeball": {
     "id": "vivillonpokeball",
@@ -16296,7 +16914,9 @@
     "spe": 89,
     "weight": 17,
     "type1": "Bug",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "spewpa",
+    "evo2": "scatterbug"
   },
   "volbeat": {
     "id": "volbeat",
@@ -16438,7 +17058,8 @@
     "spd": 45,
     "spe": 60,
     "weight": 398,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "wailmer"
   },
   "walrein": {
     "id": "walrein",
@@ -16455,7 +17076,9 @@
     "spe": 65,
     "weight": 150.6,
     "type1": "Ice",
-    "type2": "Water"
+    "type2": "Water",
+    "evo1": "sealeo",
+    "evo2": "spheal"
   },
   "wartortle": {
     "id": "wartortle",
@@ -16470,7 +17093,8 @@
     "spd": 80,
     "spe": 58,
     "weight": 22.5,
-    "type1": "Water"
+    "type1": "Water",
+    "evo1": "squirtle"
   },
   "watchog": {
     "id": "watchog",
@@ -16486,7 +17110,8 @@
     "spd": 69,
     "spe": 77,
     "weight": 27,
-    "type1": "Normal"
+    "type1": "Normal",
+    "evo1": "patrat"
   },
   "weavile": {
     "id": "weavile",
@@ -16502,7 +17127,8 @@
     "spe": 125,
     "weight": 34,
     "type1": "Dark",
-    "type2": "Ice"
+    "type2": "Ice",
+    "evo1": "sneasel"
   },
   "weedle": {
     "id": "weedle",
@@ -16534,7 +17160,8 @@
     "spe": 55,
     "weight": 6.4,
     "type1": "Grass",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "bellsprout"
   },
   "weezing": {
     "id": "weezing",
@@ -16550,7 +17177,8 @@
     "spd": 70,
     "spe": 60,
     "weight": 9.5,
-    "type1": "Poison"
+    "type1": "Poison",
+    "evo1": "koffing"
   },
   "weezinggalar": {
     "id": "weezinggalar",
@@ -16567,7 +17195,8 @@
     "spe": 60,
     "weight": 16,
     "type1": "Poison",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "koffing"
   },
   "whimsicott": {
     "id": "whimsicott",
@@ -16584,7 +17213,8 @@
     "spe": 116,
     "weight": 6.6,
     "type1": "Grass",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "cottonee"
   },
   "whirlipede": {
     "id": "whirlipede",
@@ -16601,7 +17231,8 @@
     "spe": 47,
     "weight": 58.5,
     "type1": "Bug",
-    "type2": "Poison"
+    "type2": "Poison",
+    "evo1": "venipede"
   },
   "whiscash": {
     "id": "whiscash",
@@ -16618,7 +17249,8 @@
     "spe": 60,
     "weight": 23.6,
     "type1": "Water",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "barboach"
   },
   "whismur": {
     "id": "whismur",
@@ -16650,7 +17282,9 @@
     "spe": 45,
     "weight": 12,
     "type1": "Normal",
-    "type2": "Fairy"
+    "type2": "Fairy",
+    "evo1": "jigglypuff",
+    "evo2": "igglybuff"
   },
   "wimpod": {
     "id": "wimpod",
@@ -16725,7 +17359,8 @@
     "spd": 58,
     "spe": 33,
     "weight": 28.5,
-    "type1": "Psychic"
+    "type1": "Psychic",
+    "evo1": "wynaut"
   },
   "woobat": {
     "id": "woobat",
@@ -16791,7 +17426,8 @@
     "spe": 36,
     "weight": 6.5,
     "type1": "Bug",
-    "type2": "Grass"
+    "type2": "Grass",
+    "evo1": "burmy"
   },
   "wormadamsandy": {
     "id": "wormadamsandy",
@@ -16807,7 +17443,8 @@
     "spe": 36,
     "weight": 6.5,
     "type1": "Bug",
-    "type2": "Ground"
+    "type2": "Ground",
+    "evo1": "burmy"
   },
   "wormadamtrash": {
     "id": "wormadamtrash",
@@ -16823,7 +17460,8 @@
     "spe": 36,
     "weight": 6.5,
     "type1": "Bug",
-    "type2": "Steel"
+    "type2": "Steel",
+    "evo1": "burmy"
   },
   "wurmple": {
     "id": "wurmple",
@@ -16870,7 +17508,8 @@
     "spe": 95,
     "weight": 15,
     "type1": "Psychic",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "natu"
   },
   "xerneas": {
     "id": "xerneas",
@@ -16990,7 +17629,8 @@
     "spe": 95,
     "weight": 51.5,
     "type1": "Bug",
-    "type2": "Flying"
+    "type2": "Flying",
+    "evo1": "yanma"
   },
   "yungoos": {
     "id": "yungoos",
@@ -17171,7 +17811,8 @@
     "spd": 63,
     "spe": 116,
     "weight": 79.5,
-    "type1": "Electric"
+    "type1": "Electric",
+    "evo1": "blitzle"
   },
   "zekrom": {
     "id": "zekrom",
@@ -17247,7 +17888,8 @@
     "spd": 60,
     "spe": 105,
     "weight": 81.1,
-    "type1": "Dark"
+    "type1": "Dark",
+    "evo1": "zorua"
   },
   "zorua": {
     "id": "zorua",
@@ -17292,7 +17934,8 @@
     "spe": 58,
     "weight": 50,
     "type1": "Dark",
-    "type2": "Dragon"
+    "type2": "Dragon",
+    "evo1": "deino"
   },
   "zygarde": {
     "id": "zygarde",

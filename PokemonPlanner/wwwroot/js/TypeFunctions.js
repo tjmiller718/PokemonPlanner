@@ -126,6 +126,7 @@ function defensiveMatchups(pokemon, abilityFlag) {
                 typeMatchups.psychic *= 2;
                 typeMatchups.bug *= .5;
                 typeMatchups.rock *= .5;
+                typeMatchups.dark *= .5;
                 typeMatchups.fairy *= 2;
                 break;
             case 'Poison':
@@ -139,7 +140,7 @@ function defensiveMatchups(pokemon, abilityFlag) {
                 break;
             case 'Ground':
                 typeMatchups.water *= 2;
-                typeMatchups.electric *= .5;
+                typeMatchups.electric *= 0;
                 typeMatchups.grass *= 2;
                 typeMatchups.ice *= 2;
                 typeMatchups.poison *= .5;
