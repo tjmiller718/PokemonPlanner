@@ -240,7 +240,7 @@ function updateSelectedPokemon() {
 function populateSpeedTiersTable() {
     if (currentTeam.length > 0) {
         var sortedTeam = currentTeam;
-        sortedTeam.sort((a, b) => (a.spe < b.spe) ? 1 : -1);
+        sortedTeam.sort((a, b) => (a.spe < b.spe) ? 1 : -1); 
         console.log(sortedTeam);
         $('#teamSpeedTiersTable').html('');
         for (var p in sortedTeam) {
